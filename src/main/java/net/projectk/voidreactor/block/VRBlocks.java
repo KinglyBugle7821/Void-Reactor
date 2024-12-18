@@ -9,6 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.projectk.voidreactor.VoidReactor;
+import net.projectk.voidreactor.block.custom.VRSaplingBlock;
 import net.projectk.voidreactor.world.tree.VRSaplingGenerators;
 
 public class VRBlocks {
@@ -53,7 +54,7 @@ public class VRBlocks {
                     AbstractBlock.Settings.copy(Blocks.CRIMSON_TRAPDOOR)));
 
     public static final Block AXON_SPROUT = registerBlock("axon_sprout",
-            new SaplingBlock(VRSaplingGenerators.NEURON, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
+            new VRSaplingBlock(VRSaplingGenerators.NEURON, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING), VRBlocks.CELESTIAL_GRASS));
 
     public static final Block CELESTIAL_GRASS = registerBlock("celestial_grass",
             new GrassBlock(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK)));

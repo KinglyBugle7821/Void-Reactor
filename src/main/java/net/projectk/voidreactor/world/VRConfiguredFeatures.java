@@ -1,5 +1,6 @@
 package net.projectk.voidreactor.world;
 
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -29,7 +30,7 @@ public class VRConfiguredFeatures {
                 new BlobFoliagePlacer(ConstantIntProvider.create(2),
                                         ConstantIntProvider.create(0),
                                         3),
-                new TwoLayersFeatureSize(1, 0, 1)).build());
+                new TwoLayersFeatureSize(1, 0, 1)).dirtProvider(BlockStateProvider.of(Blocks.DIRT)).build());
     }
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(VoidReactor.MOD_ID, name));
