@@ -1,4 +1,4 @@
-// 1.21	2024-12-18T13:42:28.0751474	Void Reactor/Block Loot Tables
+// 1.21	2024-12-18T14:30:28.8788735	Void Reactor/Block Loot Tables
 1913f937b5f2a650514a5919e32aa1e90e7d6644 data\void_reactor\loot_table\blocks\neuron_synapse.json
 fb439efea8a633814e42e957a74ad4b2344de134 data\void_reactor\loot_table\blocks\neuron_slab.json
 bd1439dc8cdf33160e413b7d40a9eef275fe3bc3 data\void_reactor\loot_table\blocks\neuron_pressure_plate.json
@@ -8,8 +8,8 @@ b14387d11c60051e00bfad6b3ac72334419bd725 data\void_reactor\loot_table\blocks\neu
 8b01208072aa58b7e3c623a2cc0785988ab6d12f data\void_reactor\loot_table\blocks\neuron_trapdoor.json
 f27f69ae65486f9d316a6ecff96fe1dab8997672 data\void_reactor\loot_table\blocks\axon_sprout.json
 36add52be7f86c48fc98eb30a5e9d6fdc3772ba5 data\void_reactor\loot_table\blocks\stripped_neuron_myelin.json
-71985e5b45a8a500ebe7f20cc06ef3053547a190 data\void_reactor\loot_table\blocks\neuron_fence.json
 095c73b01e7b148ce13c26d4965abd834ddfa45e data\void_reactor\loot_table\blocks\neuron_fence_gate.json
+71985e5b45a8a500ebe7f20cc06ef3053547a190 data\void_reactor\loot_table\blocks\neuron_fence.json
 f842635711c90cbaf617a30515d0f76858e4a72d data\void_reactor\loot_table\blocks\neuron_stairs.json
 6d84d2f9a7acf8eb237a7bd2a00ff68bed1d090c data\void_reactor\loot_table\blocks\neuron_door.json
 3547c7b7fc985e2950f66b98c4af19873c218778 data\void_reactor\loot_table\blocks\neuron_axon.json

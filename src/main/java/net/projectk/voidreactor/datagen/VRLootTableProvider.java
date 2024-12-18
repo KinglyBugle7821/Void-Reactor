@@ -29,8 +29,6 @@ public class VRLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(VRBlocks.NEURON_FENCE_GATE);
         addDrop(VRBlocks.NEURON_DOOR, doorDrops(VRBlocks.NEURON_DOOR));
         addDrop(VRBlocks.NEURON_TRAPDOOR);
-        addDrop(VRBlocks.NEURON_SIGN);
-        addDrop(VRBlocks.NEURON_HANGING_SIGN);
 
         addDrop(VRBlocks.NEURON_SYNAPSE, leavesDrops(VRBlocks.NEURON_SYNAPSE, VRBlocks.AXON_SPROUT, 0.0625f));
 

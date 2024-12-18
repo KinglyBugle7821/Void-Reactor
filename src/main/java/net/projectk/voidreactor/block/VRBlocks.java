@@ -45,13 +45,6 @@ public class VRBlocks {
             new FenceGateBlock(WoodType.OAK,
                     AbstractBlock.Settings.copy(Blocks.CRIMSON_FENCE_GATE)));
 
-    public static final Block NEURON_SIGN = registerBlock("neuron_sign",
-            new SignBlock(WoodType.OAK,
-                    AbstractBlock.Settings.copy(Blocks.CRIMSON_SIGN)));
-    public static final Block NEURON_HANGING_SIGN = registerBlock("neuron_sign",
-            new HangingSignBlock(WoodType.OAK,
-                    AbstractBlock.Settings.copy(Blocks.CRIMSON_HANGING_SIGN)));
-
     public static final Block NEURON_DOOR = registerBlock("neuron_door",
             new DoorBlock(BlockSetType.OAK,
                     AbstractBlock.Settings.copy(Blocks.CRIMSON_DOOR)));
