@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "void_reactor:block/stripped_neuron_axon_top",
+    "side": "void_reactor:block/stripped_neuron_axon"
+  }
+}

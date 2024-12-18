@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "void_reactor:block/neuron_myelin",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "void_reactor:block/neuron_myelin"
+    },
+    "axis=z": {
+      "model": "void_reactor:block/neuron_myelin",
+      "x": 90
+    }
+  }
+}

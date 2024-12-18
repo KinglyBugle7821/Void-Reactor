@@ -1,0 +1,8 @@
+{
+  "values": [
+    "void_reactor:neuron_axon",
+    "void_reactor:neuron_myelin",
+    "void_reactor:stripped_neuron_axon",
+    "void_reactor:stripped_neuron_myelin"
+  ]
+}

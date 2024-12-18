@@ -1,0 +1,23 @@
+{
+  "block.void_reactor.neuron_planks": "Neuron Planks",
+  "block.void_reactor.neuron_axon": "Neuron Axon",
+  "block.void_reactor.neuron_myelin": "Neuron Myelin",
+  "block.void_reactor.stripped_neuron_axon": "Stripped Neuron Axon",
+  "block.void_reactor.stripped_neuron_myelin": "Stripped Neuron Myelin",
+  "block.void_reactor.neuron_synapse": "Neuron Synapse",
+  "block.void_reactor.axon_sprout": "Axon Sprout",
+
+  "block.void_reactor.neuron_stairs": "Neuron Stairs",
+  "block.void_reactor.neuron_slab": "Neuron Slab",
+
+  "block.void_reactor.neuron_button": "Neuron Button",
+  "block.void_reactor.neuron_pressure_plate": "Neuron Pressure Plate",
+
+  "block.void_reactor.neuron_fence": "Neuron Fence",
+  "block.void_reactor.neuron_fence_gate": "Neuron Fence Gate",
+
+  "block.void_reactor.neuron_door": "Neuron Door",
+  "block.void_reactor.neuron_trapdoor": "Neuron Trapdoor",
+
+  "itemgroup.void_reactor.void_reactor_tab": "Void Reactor"
+}

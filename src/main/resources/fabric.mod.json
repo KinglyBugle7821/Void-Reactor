@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "void_reactor",
+	"version": "${version}",
+	"name": "Void Reactor",
+	"description": "One Of The Mods That Combines Fantasy With Sci-fi!",
+	"authors": [
+		"Project K!"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/KinglyBugle7821/Void-Reactor"
+	},
+	"license": "MIT",
+	"icon": "assets/void_reactor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.projectk.voidreactor.VoidReactor"
+		],
+		"fabric-datagen": [
+			"net.projectk.voidreactor.VoidReactorDataGenerator"
+		],
+		"client": [
+			"net.projectk.voidreactor.VoidReactorClient"
+		]
+	},
+	"mixins": [
+		"void_reactor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

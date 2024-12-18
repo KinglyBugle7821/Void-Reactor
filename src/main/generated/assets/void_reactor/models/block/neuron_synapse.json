@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "void_reactor:block/neuron_synapse"
+  }
+}

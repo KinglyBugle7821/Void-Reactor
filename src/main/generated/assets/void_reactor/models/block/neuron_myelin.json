@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "void_reactor:block/neuron_axon",
+    "side": "void_reactor:block/neuron_axon"
+  }
+}

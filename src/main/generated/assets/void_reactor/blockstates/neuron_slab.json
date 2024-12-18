@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "void_reactor:block/neuron_slab"
+    },
+    "type=double": {
+      "model": "void_reactor:block/neuron_planks"
+    },
+    "type=top": {
+      "model": "void_reactor:block/neuron_slab_top"
+    }
+  }
+}

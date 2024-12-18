@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "void_reactor:block/axon_sprout"
+  }
+}
