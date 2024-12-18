@@ -32,6 +32,9 @@ public class VRModelProvider extends FabricModelProvider {
         neuronPool.fence(VRBlocks.NEURON_FENCE);
         neuronPool.fenceGate(VRBlocks.NEURON_FENCE_GATE);
 
+        neuronPool.sign(VRBlocks.NEURON_SIGN);
+        neuronPool.sign(VRBlocks.NEURON_HANGING_SIGN);
+
         blockStateModelGenerator.registerDoor(VRBlocks.NEURON_DOOR);
         blockStateModelGenerator.registerTrapdoor(VRBlocks.NEURON_TRAPDOOR);
     }

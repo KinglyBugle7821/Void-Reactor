@@ -32,6 +32,8 @@ public class VRItemGroups {
                         entries.add(VRBlocks.NEURON_SLAB);
                         entries.add(VRBlocks.NEURON_STAIRS);
                         entries.add(VRBlocks.NEURON_TRAPDOOR);
+                        entries.add(VRBlocks.NEURON_SIGN);
+                        entries.add(VRBlocks.NEURON_HANGING_SIGN);
                     }).build());
 
     public static void registerItemGroups(){
