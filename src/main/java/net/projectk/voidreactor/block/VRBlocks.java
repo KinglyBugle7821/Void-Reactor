@@ -55,6 +55,9 @@ public class VRBlocks {
     public static final Block AXON_SPROUT = registerBlock("axon_sprout",
             new SaplingBlock(VRSaplingGenerators.NEURON, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
 
+    public static final Block CELESTIAL_GRASS = registerBlock("celestial_grass",
+            new GrassBlock(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK)));
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(VoidReactor.MOD_ID, name), block);

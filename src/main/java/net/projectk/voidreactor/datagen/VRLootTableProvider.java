@@ -2,6 +2,7 @@ package net.projectk.voidreactor.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.projectk.voidreactor.block.VRBlocks;
 
@@ -22,6 +23,8 @@ public class VRLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(VRBlocks.NEURON_PLANKS);
         addDrop(VRBlocks.AXON_SPROUT);
 
+        addDrop(VRBlocks.CELESTIAL_GRASS, oreDrops(VRBlocks.CELESTIAL_GRASS, Blocks.COARSE_DIRT.asItem()));
+
         addDrop(VRBlocks.NEURON_STAIRS);
         addDrop(VRBlocks.NEURON_SLAB, slabDrops(VRBlocks.NEURON_SLAB));
         addDrop(VRBlocks.NEURON_PRESSURE_PLATE);
@@ -29,6 +32,7 @@ public class VRLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(VRBlocks.NEURON_FENCE_GATE);
         addDrop(VRBlocks.NEURON_DOOR, doorDrops(VRBlocks.NEURON_DOOR));
         addDrop(VRBlocks.NEURON_TRAPDOOR);
+        addDrop(VRBlocks.NEURON_BUTTON);
 
         addDrop(VRBlocks.NEURON_SYNAPSE, leavesDrops(VRBlocks.NEURON_SYNAPSE, VRBlocks.AXON_SPROUT, 0.0625f));
 

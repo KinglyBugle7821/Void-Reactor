@@ -19,8 +19,7 @@
   "block.void_reactor.neuron_door": "Neuron Door",
   "block.void_reactor.neuron_trapdoor": "Neuron Trapdoor",
 
-  "block.void_reactor.neuron_sign": "Neuron Sign",
-  "block.void_reactor.neuron_hanging_sign": "Neuron Hanging Sign",
+  "block.void_reactor.celestial_grass": "Celestial Grass",
 
   "itemgroup.void_reactor.void_reactor_tab": "Void Reactor"
 }

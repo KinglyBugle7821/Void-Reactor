@@ -7,5 +7,6 @@ Block:
 5. Neuron Synapse(Sebutan Untuk Neuron Leaves)
 6. Neuron Trapdoor
 7. Stripped Neuron Axon Top & Bottom
+8. Celestial Grass (Mirip di referensi/Celestial Grass.png)
 Item:
 1. Tekstur Door Untuk Display Item di Hotbar

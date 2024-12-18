@@ -27,8 +27,13 @@ public class VRBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
                 .add(VRBlocks.NEURON_PLANKS)
                 .add(VRBlocks.NEURON_SYNAPSE);
-
+        getOrCreateTagBuilder(BlockTags.WOODEN_DOORS).add(VRBlocks.NEURON_DOOR);
+        getOrCreateTagBuilder(BlockTags.WOODEN_BUTTONS).add(VRBlocks.NEURON_BUTTON);
+        getOrCreateTagBuilder(BlockTags.WOODEN_SLABS).add(VRBlocks.NEURON_SLAB);
+        getOrCreateTagBuilder(BlockTags.WOODEN_STAIRS).add(VRBlocks.NEURON_STAIRS);
+        getOrCreateTagBuilder(BlockTags.WOODEN_PRESSURE_PLATES).add(VRBlocks.NEURON_PRESSURE_PLATE);
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES).add(VRBlocks.NEURON_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(VRBlocks.NEURON_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.NYLIUM).add(VRBlocks.CELESTIAL_GRASS);
     }
 }
