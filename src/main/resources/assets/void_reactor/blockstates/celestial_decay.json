@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "stack_count=1": { "model": "void_reactor:block/celestial_decay_1" },
+    "stack_count=2": { "model": "void_reactor:block/celestial_decay_2" },
+    "stack_count=3": { "model": "void_reactor:block/celestial_decay_3" },
+    "stack_count=4": { "model": "void_reactor:block/celestial_decay_4" }
+  }
+}

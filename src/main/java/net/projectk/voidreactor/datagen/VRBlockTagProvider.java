@@ -34,6 +34,6 @@ public class VRBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.WOODEN_PRESSURE_PLATES).add(VRBlocks.NEURON_PRESSURE_PLATE);
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES).add(VRBlocks.NEURON_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(VRBlocks.NEURON_FENCE_GATE);
-        getOrCreateTagBuilder(BlockTags.DIRT).add(VRBlocks.CELESTIAL_GRASS);
+        getOrCreateTagBuilder(BlockTags.DIRT).add(VRBlocks.CELESTIAL_GRASS_BLOCK);
     }
 }

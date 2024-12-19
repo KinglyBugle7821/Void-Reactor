@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "void_reactor:item/axon_sprout"
+    "layer0": "void_reactor:item/celestial_decay"
   }
 }

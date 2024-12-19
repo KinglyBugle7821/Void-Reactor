@@ -9,8 +9,9 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.projectk.voidreactor.VoidReactor;
-import net.projectk.voidreactor.block.custom.VRGrassBlocks;
+import net.projectk.voidreactor.block.custom.VRGrassBlock;
 import net.projectk.voidreactor.block.custom.VRSaplingBlock;
+import net.projectk.voidreactor.block.custom.VRStackableBlocks;
 import net.projectk.voidreactor.world.tree.VRSaplingGenerators;
 
 public class VRBlocks {
@@ -55,10 +56,14 @@ public class VRBlocks {
                     AbstractBlock.Settings.copy(Blocks.CRIMSON_TRAPDOOR)));
 
     public static final Block AXON_SPROUT = registerBlock("axon_sprout",
-            new VRSaplingBlock(VRSaplingGenerators.NEURON, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING), VRBlocks.CELESTIAL_GRASS));
+            new VRSaplingBlock(VRSaplingGenerators.NEURON, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING), VRBlocks.CELESTIAL_GRASS_BLOCK));
 
+    public static final Block CELESTIAL_GRASS_BLOCK = registerBlock("celestial_grass_block",
+            new VRGrassBlock(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK).nonOpaque()));
     public static final Block CELESTIAL_GRASS = registerBlock("celestial_grass",
-            new VRGrassBlocks(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK).nonOpaque()));
+            new GrassBlock(AbstractBlock.Settings.copy(Blocks.SHORT_GRASS)));
+    public static final Block CELESTIAL_DECAY = registerBlock("celestial_decay",
+            new VRStackableBlocks(AbstractBlock.Settings.copy(Blocks.PINK_PETALS)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

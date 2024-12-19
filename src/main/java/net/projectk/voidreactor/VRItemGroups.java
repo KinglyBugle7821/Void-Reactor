@@ -24,7 +24,9 @@ public class VRItemGroups {
                         entries.add(VRBlocks.NEURON_SYNAPSE);
                         entries.add(VRBlocks.AXON_SPROUT);
 
+                        entries.add(VRBlocks.CELESTIAL_GRASS_BLOCK);
                         entries.add(VRBlocks.CELESTIAL_GRASS);
+                        entries.add(VRBlocks.CELESTIAL_DECAY);
 
                         entries.add(VRBlocks.NEURON_BUTTON);
                         entries.add(VRBlocks.NEURON_DOOR);

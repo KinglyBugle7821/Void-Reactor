@@ -12,7 +12,9 @@ public class VoidReactorClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.AXON_SPROUT, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.NEURON_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.NEURON_TRAPDOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.CELESTIAL_GRASS_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.CELESTIAL_GRASS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.CELESTIAL_DECAY, RenderLayer.getCutout());
 
     }
 }
