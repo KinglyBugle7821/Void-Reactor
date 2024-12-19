@@ -13,6 +13,7 @@ import net.minecraft.world.gen.feature.TreeFeatureConfig;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
+import net.minecraft.world.gen.trunk.ForkingTrunkPlacer;
 import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 import net.projectk.voidreactor.VoidReactor;
 import net.projectk.voidreactor.block.VRBlocks;
@@ -25,11 +26,11 @@ public class VRConfiguredFeatures {
 
         register(context, NEURON_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(VRBlocks.NEURON_AXON),
-                new StraightTrunkPlacer(5, 6, 3),
+                new ForkingTrunkPlacer(5, 2, 4),
                 BlockStateProvider.of(VRBlocks.NEURON_SYNAPSE),
-                new BlobFoliagePlacer(ConstantIntProvider.create(2),
+                new BlobFoliagePlacer(ConstantIntProvider.create(1),
                                         ConstantIntProvider.create(0),
-                                        3),
+                                        2),
                 new TwoLayersFeatureSize(1, 0, 1)).dirtProvider(BlockStateProvider.of(Blocks.DIRT)).build());
     }
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
