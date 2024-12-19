@@ -61,7 +61,7 @@ public class VRBlocks {
     public static final Block CELESTIAL_GRASS_BLOCK = registerBlock("celestial_grass_block",
             new VRGrassBlock(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK).nonOpaque()));
     public static final Block CELESTIAL_GRASS = registerBlock("celestial_grass",
-            new GrassBlock(AbstractBlock.Settings.copy(Blocks.SHORT_GRASS)));
+            new ShortPlantBlock(AbstractBlock.Settings.copy(Blocks.SHORT_GRASS)));
     public static final Block CELESTIAL_DECAY = registerBlock("celestial_decay",
             new VRStackableBlocks(AbstractBlock.Settings.copy(Blocks.PINK_PETALS)));
 

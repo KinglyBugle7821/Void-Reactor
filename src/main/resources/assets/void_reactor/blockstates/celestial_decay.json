@@ -1,8 +1,67 @@
 {
   "variants": {
-    "stack_count=1": { "model": "void_reactor:block/celestial_decay_1" },
-    "stack_count=2": { "model": "void_reactor:block/celestial_decay_2" },
-    "stack_count=3": { "model": "void_reactor:block/celestial_decay_3" },
-    "stack_count=4": { "model": "void_reactor:block/celestial_decay_4" }
+    "stack_count=1,facing=north": {
+      "model": "void_reactor:block/celestial_decay_1"
+    },
+    "stack_count=1,facing=south": {
+      "model": "void_reactor:block/celestial_decay_1",
+      "y": 180
+    },
+    "stack_count=1,facing=west": {
+      "model": "void_reactor:block/celestial_decay_1",
+      "y": 270
+    },
+    "stack_count=1,facing=east": {
+      "model": "void_reactor:block/celestial_decay_1",
+      "y": 90
+    },
+
+    "stack_count=2,facing=north": {
+      "model": "void_reactor:block/celestial_decay_2"
+    },
+    "stack_count=2,facing=south": {
+      "model": "void_reactor:block/celestial_decay_2",
+      "y": 180
+    },
+    "stack_count=2,facing=west": {
+      "model": "void_reactor:block/celestial_decay_2",
+      "y": 270
+    },
+    "stack_count=2,facing=east": {
+      "model": "void_reactor:block/celestial_decay_2",
+      "y": 90
+    },
+
+    "stack_count=3,facing=north": {
+      "model": "void_reactor:block/celestial_decay_3"
+    },
+    "stack_count=3,facing=south": {
+      "model": "void_reactor:block/celestial_decay_3",
+      "y": 180
+    },
+    "stack_count=3,facing=west": {
+      "model": "void_reactor:block/celestial_decay_3",
+      "y": 270
+    },
+    "stack_count=3,facing=east": {
+      "model": "void_reactor:block/celestial_decay_3",
+      "y": 90
+    },
+
+    "stack_count=4,facing=north": {
+      "model": "void_reactor:block/celestial_decay_4"
+    },
+    "stack_count=4,facing=south": {
+      "model": "void_reactor:block/celestial_decay_4",
+      "y": 180
+    },
+    "stack_count=4,facing=west": {
+      "model": "void_reactor:block/celestial_decay_4",
+      "y": 270
+    },
+    "stack_count=4,facing=east": {
+      "model": "void_reactor:block/celestial_decay_4",
+      "y": 90
+    }
   }
 }

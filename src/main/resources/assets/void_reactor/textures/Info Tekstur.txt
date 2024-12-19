@@ -1,0 +1,12 @@
+Buat Tekstur Untuk
+Block:
+1. Axon Sprout (Sebutan untuk Neuron Sapling)
+2. Neuron Axon side & top (Sebutan untuk Neuron Log)
+3. Neuron Door top & bottom
+4. Neuron Planks
+5. Neuron Synapse(Sebutan Untuk Neuron Leaves)
+6. Neuron Trapdoor
+7. Stripped Neuron Axon Top & Bottom
+8. Celestial Grass (Mirip di referensi/Celestial Grass.png)
+Item:
+1. Tekstur Door Untuk Display Item di Hotbar
