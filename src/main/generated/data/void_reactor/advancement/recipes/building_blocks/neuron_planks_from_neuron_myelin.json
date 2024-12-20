@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_neuron_myelin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "void_reactor:neuron_myelin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "void_reactor:neuron_planks_from_neuron_myelin"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_neuron_myelin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "void_reactor:neuron_planks_from_neuron_myelin"
+    ]
+  }
+}
