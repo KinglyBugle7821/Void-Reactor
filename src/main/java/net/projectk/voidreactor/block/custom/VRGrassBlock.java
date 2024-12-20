@@ -5,6 +5,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.GrassBlock;
 
 public class VRGrassBlock extends GrassBlock {
+
     public VRGrassBlock(Settings settings) {
         super(settings);
     }

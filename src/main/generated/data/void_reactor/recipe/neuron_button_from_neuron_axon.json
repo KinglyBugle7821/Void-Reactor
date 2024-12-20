@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "void_reactor:neuron_axon"
+      "item": "void_reactor:neuron_planks"
     }
   ],
   "result": {
-    "count": 4,
-    "id": "void_reactor:neuron_planks"
+    "count": 1,
+    "id": "void_reactor:neuron_button"
   }
 }

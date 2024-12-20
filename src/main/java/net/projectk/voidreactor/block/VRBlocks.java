@@ -9,6 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.projectk.voidreactor.VoidReactor;
+import net.projectk.voidreactor.block.custom.NeuronSynapseBlock;
 import net.projectk.voidreactor.block.custom.VRGrassBlock;
 import net.projectk.voidreactor.block.custom.VRSaplingBlock;
 import net.projectk.voidreactor.block.custom.VRStackableBlocks;
@@ -27,7 +28,7 @@ public class VRBlocks {
     public static final Block NEURON_PLANKS = registerBlock("neuron_planks",
             new Block(AbstractBlock.Settings.copy(Blocks.CRIMSON_PLANKS)));
     public static final Block NEURON_SYNAPSE = registerBlock("neuron_synapse",
-            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.NETHER_WART_BLOCK)));
+            new NeuronSynapseBlock(AbstractBlock.Settings.copy(Blocks.NETHER_WART_BLOCK).nonOpaque()));
 
     public static final Block NEURON_STAIRS = registerBlock("neuron_stairs",
             new StairsBlock(VRBlocks.NEURON_PLANKS.getDefaultState(),
@@ -59,7 +60,7 @@ public class VRBlocks {
             new VRSaplingBlock(VRSaplingGenerators.NEURON, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING), VRBlocks.CELESTIAL_GRASS_BLOCK));
 
     public static final Block CELESTIAL_GRASS_BLOCK = registerBlock("celestial_grass_block",
-            new VRGrassBlock(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK).nonOpaque()));
+            new GrassBlock(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK).mapColor(MapColor.BLUE)));
     public static final Block CELESTIAL_GRASS = registerBlock("celestial_grass",
             new ShortPlantBlock(AbstractBlock.Settings.copy(Blocks.SHORT_GRASS)));
     public static final Block CELESTIAL_DECAY = registerBlock("celestial_decay",
