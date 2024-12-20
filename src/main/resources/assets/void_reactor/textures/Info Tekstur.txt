@@ -8,5 +8,6 @@ Block:
 6. Neuron Trapdoor
 7. Stripped Neuron Axon Top & Bottom
 8. Celestial Grass (Mirip di referensi/Celestial Grass.png)
+9. Celestial Tall Grass
 Item:
 1. Tekstur Door Untuk Display Item di Hotbar

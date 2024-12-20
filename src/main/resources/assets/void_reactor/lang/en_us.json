@@ -9,19 +9,41 @@
 
   "block.void_reactor.neuron_stairs": "Neuron Stairs",
   "block.void_reactor.neuron_slab": "Neuron Slab",
-
   "block.void_reactor.neuron_button": "Neuron Button",
   "block.void_reactor.neuron_pressure_plate": "Neuron Pressure Plate",
-
   "block.void_reactor.neuron_fence": "Neuron Fence",
   "block.void_reactor.neuron_fence_gate": "Neuron Fence Gate",
-
   "block.void_reactor.neuron_door": "Neuron Door",
   "block.void_reactor.neuron_trapdoor": "Neuron Trapdoor",
 
   "block.void_reactor.celestial_grass_block": "Celestial Grass Block",
   "block.void_reactor.celestial_grass": "Celestial Grass",
   "block.void_reactor.celestial_decay": "Celestial Decay",
+
+  "tooltip.void_reactor.press_shift": "§7Hold Shift To Open Tooltip",
+
+  "tooltip.void_reactor.neuron_axon": "A Type Of Log Generated From Celestial Tree In the Void Dimension",
+  "tooltip.void_reactor.neuron_myelin": "A Type Of Wood Crafted From Celestial Logs",
+  "tooltip.void_reactor.stripped_neuron_axon": "A Type Of Stripped Log Created By Stripping A Neuron Axon With An Axe",
+  "tooltip.void_reactor.stripped_neuron_myelin": "A Type Of Stripped Wood Created By Stripping A Neuron Myelin With An Axe",
+  "tooltip.void_reactor.neuron_planks": "A Type Of Planks Crafted From Neuron Wood/Log",
+  "tooltip.void_reactor.neuron_synapse": "A Type Of Leaves Generated From Celestial Tree In the Void Dimension",
+  "tooltip.void_reactor.axon_sprout": "A Type Of Sapling Gathered By Destroying Neuron Synapse",
+
+  "tooltip.void_reactor.neuron_stairs": "A Type Of Stairs Crafted From Celestial Planks",
+  "tooltip.void_reactor.neuron_slab": "A Type Of Slab Crafted From Celestial Planks",
+  "tooltip.void_reactor.neuron_button": "A Type Of Button Crafted From Celestial Planks",
+  "tooltip.void_reactor.neuron_pressure_plate": "A Type Of Pressure Plate Crafted From Celestial Planks",
+  "tooltip.void_reactor.neuron_fence": "A Type Of Fence Crafted From Celestial Planks",
+  "tooltip.void_reactor.neuron_fence_gate": "A Type Of Fence Gate Crafted From Celestial Planks",
+  "tooltip.void_reactor.neuron_door": "A Type Of Door Crafted From Celestial Planks",
+  "tooltip.void_reactor.neuron_trapdoor": "A Type Of Trapdoor Crafted From Celestial Planks",
+
+  "tooltip.void_reactor.celestial_grass_block": "A Type Of Grass Block Found In The Void Dimension",
+  "tooltip.void_reactor.celestial_grass": "A Type Of Grass Found In The Void Dimension",
+  "tooltip.void_reactor.celestial_decay": "A Type Of Nature Block Found In The Void Dimension",
+
+
 
   "itemgroup.void_reactor.void_reactor_tab": "Void Reactor"
 }

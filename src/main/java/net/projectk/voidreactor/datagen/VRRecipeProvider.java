@@ -26,6 +26,19 @@ public class VRRecipeProvider extends FabricRecipeProvider {
                 .input(VRBlocks.NEURON_AXON)
                 .criterion(hasItem(VRBlocks.NEURON_AXON), conditionsFromItem(VRBlocks.NEURON_AXON))
                 .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "neuron_planks_from_neuron_axon"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.NEURON_PLANKS, 4)
+                .input(VRBlocks.NEURON_MYELIN)
+                .criterion(hasItem(VRBlocks.NEURON_MYELIN), conditionsFromItem(VRBlocks.NEURON_MYELIN))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "neuron_planks_from_neuron_axon"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.NEURON_PLANKS, 4)
+                .input(VRBlocks.STRIPPED_NEURON_AXON)
+                .criterion(hasItem(VRBlocks.STRIPPED_NEURON_AXON), conditionsFromItem(VRBlocks.STRIPPED_NEURON_AXON))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "neuron_planks_from_neuron_axon"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.NEURON_PLANKS, 4)
+                .input(VRBlocks.STRIPPED_NEURON_MYELIN)
+                .criterion(hasItem(VRBlocks.STRIPPED_NEURON_MYELIN), conditionsFromItem(VRBlocks.STRIPPED_NEURON_MYELIN))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "neuron_planks_from_neuron_axon"));
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.NEURON_MYELIN, 3)
                 .pattern("## ")
                 .pattern("## ")
