@@ -1,6 +1,6 @@
-// 1.21	2024-12-20T08:06:20.3483409	Void Reactor/Block Loot Tables
+// 1.21	2024-12-20T15:25:12.4248479	Void Reactor/Block Loot Tables
 1913f937b5f2a650514a5919e32aa1e90e7d6644 data\void_reactor\loot_table\blocks\neuron_synapse.json
-501855ad84bf096ab56deb190509a54dac5aec89 data\void_reactor\loot_table\blocks\celestial_grass_block.json
+bfe75e1632f098469dd01692ca66dbd81bea6280 data\void_reactor\loot_table\blocks\celestial_grass_block.json
 fb439efea8a633814e42e957a74ad4b2344de134 data\void_reactor\loot_table\blocks\neuron_slab.json
 bd1439dc8cdf33160e413b7d40a9eef275fe3bc3 data\void_reactor\loot_table\blocks\neuron_pressure_plate.json
 ada54c57e086b521c0ae80edf3fcbe2a3b5e5b58 data\void_reactor\loot_table\blocks\neuron_button.json
@@ -15,3 +15,4 @@ f27f69ae65486f9d316a6ecff96fe1dab8997672 data\void_reactor\loot_table\blocks\axo
 f842635711c90cbaf617a30515d0f76858e4a72d data\void_reactor\loot_table\blocks\neuron_stairs.json
 6d84d2f9a7acf8eb237a7bd2a00ff68bed1d090c data\void_reactor\loot_table\blocks\neuron_door.json
 3547c7b7fc985e2950f66b98c4af19873c218778 data\void_reactor\loot_table\blocks\neuron_axon.json
+d240affb507e760d0fd5e99736d1f67b17162d80 data\void_reactor\loot_table\blocks\celestial_dirt.json

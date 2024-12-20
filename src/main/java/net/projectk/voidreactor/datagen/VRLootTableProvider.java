@@ -23,7 +23,8 @@ public class VRLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(VRBlocks.NEURON_PLANKS);
         addDrop(VRBlocks.AXON_SPROUT);
 
-        addDrop(VRBlocks.CELESTIAL_GRASS_BLOCK, oreDrops(VRBlocks.CELESTIAL_GRASS_BLOCK, Blocks.COARSE_DIRT.asItem()));
+        addDrop(VRBlocks.CELESTIAL_GRASS_BLOCK, oreDrops(VRBlocks.CELESTIAL_GRASS_BLOCK, VRBlocks.CELESTIAL_DIRT.asItem()));
+        addDrop(VRBlocks.CELESTIAL_DIRT);
 
         addDrop(VRBlocks.NEURON_STAIRS);
         addDrop(VRBlocks.NEURON_SLAB, slabDrops(VRBlocks.NEURON_SLAB));

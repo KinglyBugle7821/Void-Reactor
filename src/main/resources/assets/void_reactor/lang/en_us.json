@@ -17,6 +17,7 @@
   "block.void_reactor.neuron_trapdoor": "Neuron Trapdoor",
 
   "block.void_reactor.celestial_grass_block": "Celestial Grass Block",
+  "block.void_reactor.celestial_dirt": "Celestial Dirt",
   "block.void_reactor.celestial_grass": "Celestial Grass",
   "block.void_reactor.celestial_decay": "Celestial Decay",
 
@@ -40,10 +41,9 @@
   "tooltip.void_reactor.neuron_trapdoor": "A Type Of Trapdoor Crafted From Celestial Planks",
 
   "tooltip.void_reactor.celestial_grass_block": "A Type Of Grass Block Found In The Void Dimension",
+  "tooltip.void_reactor.celestial_dirt": "A Type Of Dirt Block Found In The Void Dimension",
   "tooltip.void_reactor.celestial_grass": "A Type Of Grass Found In The Void Dimension",
   "tooltip.void_reactor.celestial_decay": "A Type Of Nature Block Found In The Void Dimension",
-
-
 
   "itemgroup.void_reactor.void_reactor_tab": "Void Reactor"
 }

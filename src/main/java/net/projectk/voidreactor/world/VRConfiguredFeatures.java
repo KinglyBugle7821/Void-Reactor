@@ -1,11 +1,16 @@
 package net.projectk.voidreactor.world;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.entry.RegistryEntryList;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.floatprovider.ConstantFloatProvider;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.FeatureConfig;
@@ -13,12 +18,14 @@ import net.minecraft.world.gen.feature.TreeFeatureConfig;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
-import net.minecraft.world.gen.trunk.ForkingTrunkPlacer;
-import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
+import net.minecraft.world.gen.trunk.*;
 import net.projectk.voidreactor.VoidReactor;
 import net.projectk.voidreactor.block.VRBlocks;
 
+import java.util.Random;
+
 public class VRConfiguredFeatures {
+    static Random random = new Random();
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> NEURON_KEY = registerKey("neuron");
 
@@ -29,9 +36,9 @@ public class VRConfiguredFeatures {
                 new ForkingTrunkPlacer(5, 2, 4),
                 BlockStateProvider.of(VRBlocks.NEURON_SYNAPSE),
                 new BlobFoliagePlacer(ConstantIntProvider.create(1),
-                                        ConstantIntProvider.create(0),
-                                        2),
-                new TwoLayersFeatureSize(1, 0, 1)).dirtProvider(BlockStateProvider.of(Blocks.DIRT)).build());
+                        ConstantIntProvider.create(0),
+                        2),
+                new TwoLayersFeatureSize(1, 0, 1)).dirtProvider(BlockStateProvider.of(VRBlocks.CELESTIAL_DIRT)).build());
     }
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(VoidReactor.MOD_ID, name));

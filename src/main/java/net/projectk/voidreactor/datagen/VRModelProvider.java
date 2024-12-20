@@ -25,6 +25,8 @@ public class VRModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTintableCrossBlockState(VRBlocks.AXON_SPROUT, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         blockStateModelGenerator.registerTintableCrossBlockState(VRBlocks.CELESTIAL_GRASS, BlockStateModelGenerator.TintType.NOT_TINTED);
+        
+        blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.CELESTIAL_DIRT);
 
         neuronPool.stairs(VRBlocks.NEURON_STAIRS);
         neuronPool.slab(VRBlocks.NEURON_SLAB);

@@ -10,9 +10,16 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.server.world.ServerWorld;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.random.Random;
+import net.minecraft.world.WorldView;
+import net.minecraft.world.chunk.light.ChunkLightProvider;
 import net.projectk.voidreactor.VoidReactor;
+import net.projectk.voidreactor.block.custom.CelestialGrassBlock;
 import net.projectk.voidreactor.block.custom.NeuronSynapseBlock;
 import net.projectk.voidreactor.block.custom.VRSaplingBlock;
 import net.projectk.voidreactor.block.custom.VRStackableBlocks;
@@ -218,11 +225,24 @@ public class VRBlocks {
             });
 
     public static final Block CELESTIAL_GRASS_BLOCK = registerBlock("celestial_grass_block",
-            new GrassBlock(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK).mapColor(MapColor.BLUE)){
+            new CelestialGrassBlock(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK).mapColor(MapColor.BLUE)){
                 @Override
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
                     if(Screen.hasShiftDown()){
                         tooltip.add(Text.translatable("tooltip.void_reactor.celestial_grass_block"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.void_reactor.press_shift"));
+                    }
+
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            });
+    public static final Block CELESTIAL_DIRT = registerBlock("celestial_dirt",
+            new Block(AbstractBlock.Settings.copy(Blocks.DIRT).mapColor(MapColor.BLUE)){
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    if(Screen.hasShiftDown()){
+                        tooltip.add(Text.translatable("tooltip.void_reactor.celestial_dirt"));
                     } else {
                         tooltip.add(Text.translatable("tooltip.void_reactor.press_shift"));
                     }
