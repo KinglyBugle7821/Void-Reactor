@@ -14,3 +14,4 @@ Item:
 1. Tekstur Door Untuk Display Item di Hotbar
 2. Darkfire (bahan bakar furnace)
 3. Tekstur Axon Sprout(Neuron Sapling)
+4. Tekstur Item Everburn Fruit
