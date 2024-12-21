@@ -1,17 +1,64 @@
 Buat Tekstur Untuk
 Block:
-1. Axon Sprout (Sebutan untuk Neuron Sapling)
-3. Neuron Door top & bottom
-4. Neuron Planks
-6. Neuron Trapdoor
-7. Stripped Neuron Axon Top & Bottom
-9. Celestial Tall Grass
-10. Everburn Fruit
-11. Darkfire Ore
-12. Darkfire Igniter(Flint And Steel)
-13. Darkfire Trap (Mirip Jebakan Beruang, tapi saat diinjak akan mengeluarkan darkfire)
+1. Axon Sprout: Neuron Sapling
+2. Neuron Door: Tekstur Top Dan Bottom
+3. Neuron Planks
+4. Neuron Trapdoor
+5. Stripped Neuron Axon: Tekstur Top Dan Side
+6. Celestial Tall Grass: Tekstur Top Dan Bottom
+7. Everburn Fruit: Buat Tekstur Dan Model Buah Everburn. Model Digantung Dan Ditanah
+8. Celestial Stone: Top Dan Bottom
+9. Darkfire Ore: Mirip Api Hitam
+10. Genero Ore: Mirip Plasma Biru
+11. Cymin Ore: Mirip Titanium
+12. Darkfire Block: Fire Block, Tapi Hitam
+13. Genero Block: Mirip Froglight, Tapi Lebih Terang Dan Warna Biru
+14. Cymin Block: Mirip Titanium Block
+15. Zlution Block: Gabungan Cymin Dan Genero Plasma
+
 Item:
-1. Tekstur Door Untuk Display Item di Hotbar
-2. Darkfire (bahan bakar furnace)
-3. Tekstur Axon Sprout(Neuron Sapling)
-4. Tekstur Item Everburn Fruit
+1. Neuron Door: Display Door Di Hotbar
+2. Everburn Fruit: Display Buah Di Hotbar
+3. Darkfire Essence
+4. Darkfire Igniter: Fire Charge, Tapi Untuk Darkfire
+5. Genero Plasma: Mirip Redstone, Tapi Dengan Kabel Kaca
+6. Genero Ball: Projectile Mirip Rasengan(Naruto)
+7. Raw Cymin
+8. Cymin Nugget
+9. Cymin Blade
+10. Cymin Sword
+11. Cymin Spear
+12. Cymin Axe
+13. Cymin Waraxe: Double Head Axe
+14. Cymin Pickaxe
+15. Cymin Drill
+16. Cymin Shovel
+17. Cymin Hoe
+18. Cymin Helmet
+19. Cymin Chestplate
+20. Cymin Leggings
+21. Cymin Boots
+22. Heavy Cymin Helmet
+23. Heavy Cymin Chestplate
+24. Heavy Cymin Leggings
+25. Heavy Cymin Boots
+26. Zeusium Ingot
+27. Zeusium Nugget
+28. Zeusium Blade
+29. Zeusium Sword
+30. Zeusium Spear
+31. Zeusium Blaster
+32. Zeusium Axe
+33. Zeusium Waraxe
+34. Zeusium Pickaxe
+35. Zeusium Drill
+36. Zeusium Shovel
+37. Zeusium Hoe
+38. Zeusium Helmet
+39. Zeusium Chestplate
+40. Zeusium Leggings
+41. Zeusium Boots
+42. Heavy Zeusium Helmet
+43. Heavy Zeusium Chestplate
+44. Heavy Zeusium Leggings
+45. Heavy Zeusium Boots

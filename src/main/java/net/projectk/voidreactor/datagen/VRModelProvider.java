@@ -7,6 +7,7 @@ import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.data.client.TexturedModel;
 import net.projectk.voidreactor.block.VRBlocks;
+import net.projectk.voidreactor.item.VRItems;
 
 public class VRModelProvider extends FabricModelProvider {
     public VRModelProvider(FabricDataOutput output) {
@@ -18,6 +19,18 @@ public class VRModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerLog(VRBlocks.NEURON_AXON).log(VRBlocks.NEURON_AXON).wood(VRBlocks.NEURON_MYELIN);
         blockStateModelGenerator.registerLog(VRBlocks.STRIPPED_NEURON_AXON).log(VRBlocks.STRIPPED_NEURON_AXON).wood(VRBlocks.STRIPPED_NEURON_MYELIN);
+
+        blockStateModelGenerator.registerLog(VRBlocks.CELESTIAL_STONE).log(VRBlocks.CELESTIAL_STONE);
+        blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.CELESTIAL_COBBLESTONE);
+
+
+        blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.DARKFIRE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.GENERO_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.CYMIN_ORE);
+
+        blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.DARKFIRE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.GENERO_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.CYMIN_BLOCK);
 
         BlockStateModelGenerator.BlockTexturePool neuronPool = blockStateModelGenerator.registerCubeAllModelTexturePool(VRBlocks.NEURON_PLANKS);
 
@@ -46,5 +59,11 @@ public class VRModelProvider extends FabricModelProvider {
         itemModelGenerator.register(VRBlocks.AXON_SPROUT.asItem(), Models.GENERATED);
         itemModelGenerator.register(VRBlocks.CELESTIAL_GRASS.asItem(), Models.GENERATED);
         itemModelGenerator.register(VRBlocks.CELESTIAL_DECAY.asItem(), Models.GENERATED);
+
+        itemModelGenerator.register(VRItems.DARKFIRE_ESSENCE, Models.GENERATED);
+        itemModelGenerator.register(VRItems.GENERO_PLASMA, Models.GENERATED);
+        itemModelGenerator.register(VRItems.CYMIN_INGOT, Models.GENERATED);
+        itemModelGenerator.register(VRItems.RAW_CYMIN, Models.GENERATED);
+        itemModelGenerator.register(VRItems.CYMIN_NUGGET, Models.GENERATED);
     }
 }

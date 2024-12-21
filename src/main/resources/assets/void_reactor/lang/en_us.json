@@ -21,6 +21,24 @@
   "block.void_reactor.celestial_grass": "Celestial Grass",
   "block.void_reactor.celestial_decay": "Celestial Decay",
   "block.void_reactor.celestial_vines": "Celestial Vines",
+  "block.void_reactor.celestial_stone": "Celestial Stone",
+  "block.void_reactor.celestial_cobblestone": "Celestial Cobblestone",
+
+  "block.void_reactor.darkfire_ore": "Darkfire Ore",
+  "block.void_reactor.genero_ore": "Genero Ore",
+  "block.void_reactor.cymin_ore": "Cymin Ore",
+
+  "block.void_reactor.darkfire_block": "Darkfire Block",
+  "block.void_reactor.genero_block": "Genero Block",
+  "block.void_reactor.cymin_block": "Cymin Block",
+
+
+  "item.void_reactor.darkfire_essence": "Darkfire Essence",
+  "item.void_reactor.genero_plasma": "Genero Plasma",
+  "item.void_reactor.raw_cymin": "Raw Cymin",
+  "item.void_reactor.cymin_ingot": "Cymin Ingot",
+  "item.void_reactor.cymin_nugget": "Cymin Nugget",
+
 
   "tooltip.void_reactor.press_shift": "§7Hold Shift To Open Tooltip",
 
@@ -46,6 +64,23 @@
   "tooltip.void_reactor.celestial_grass": "A Type Of Grass Found In The Void Dimension",
   "tooltip.void_reactor.celestial_decay": "A Type Of Nature Block Found In The Void Dimension",
   "tooltip.void_reactor.celestial_vines": "A Type Of Vines Found In The Void Dimension",
+  "tooltip.void_reactor.celestial_stone": "A Type Of Stone Found In The Void Dimension",
+  "tooltip.void_reactor.celestial_cobblestone": "A Type Of Cobblestone Found In The Void Dimension",
+
+  "tooltip.void_reactor.darkfire_ore": "A Type Of Ore Found In The Void Dimension",
+  "tooltip.void_reactor.genero_ore": "A Type Of Ore Found In The Void Dimension",
+  "tooltip.void_reactor.cymin_ore": "A Type Of Ore Found In The Void Dimension",
+
+  "tooltip.void_reactor.darkfire_block": "A Type Of Block Crafted From Darkfire Essences",
+  "tooltip.void_reactor.genero_block": "A Type Of Block Crafted From Genero Plasmas",
+  "tooltip.void_reactor.cymin_block": "A Type Of Block Crafted From Cymin Ingots",
+
+
+  "tooltip.void_reactor.darkfire_essence": "A Type Fuel Gathered From Darkfire Ore Found In The Void Dimension",
+  "tooltip.void_reactor.genero_plama": "A Type Plasma Gathered From Genero Ore Found In The Void Dimension",
+  "tooltip.void_reactor.raw_cymin": "A Type Raw Metal Gathered From Cymin Ore Found In The Void Dimension",
+  "tooltip.void_reactor.cymin_ingot": "A Type Ingot Smelted From Raw Cymin",
+  "tooltip.void_reactor.cymin_nugget": "A Type Nugget Crafted From Cymin Ingot",
 
   "itemgroup.void_reactor.void_reactor_tab": "Void Reactor"
 }

@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.projectk.voidreactor.block.VRBlocks;
+import net.projectk.voidreactor.item.VRItems;
 
 public class VRItemGroups {
     public static final ItemGroup VOID_REACTOR_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -30,6 +31,16 @@ public class VRItemGroups {
                         entries.add(VRBlocks.CELESTIAL_DECAY);
                         entries.add(VRBlocks.CELESTIAL_VINES);
 
+                        entries.add(VRBlocks.CELESTIAL_STONE);
+                        entries.add(VRBlocks.CELESTIAL_COBBLESTONE);
+
+                        entries.add(VRBlocks.DARKFIRE_ORE);
+                        entries.add(VRBlocks.GENERO_ORE);
+                        entries.add(VRBlocks.CYMIN_ORE);
+                        entries.add(VRBlocks.DARKFIRE_BLOCK);
+                        entries.add(VRBlocks.GENERO_BLOCK);
+                        entries.add(VRBlocks.CYMIN_BLOCK);
+
                         entries.add(VRBlocks.NEURON_BUTTON);
                         entries.add(VRBlocks.NEURON_DOOR);
                         entries.add(VRBlocks.NEURON_FENCE);
@@ -38,6 +49,13 @@ public class VRItemGroups {
                         entries.add(VRBlocks.NEURON_SLAB);
                         entries.add(VRBlocks.NEURON_STAIRS);
                         entries.add(VRBlocks.NEURON_TRAPDOOR);
+
+
+                        entries.add(VRItems.DARKFIRE_ESSENCE);
+                        entries.add(VRItems.GENERO_PLASMA);
+                        entries.add(VRItems.RAW_CYMIN);
+                        entries.add(VRItems.CYMIN_INGOT);
+                        entries.add(VRItems.CYMIN_NUGGET);
                     }).build());
 
     public static void registerItemGroups(){

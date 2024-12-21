@@ -5,13 +5,16 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
 import net.projectk.voidreactor.VoidReactor;
 import net.projectk.voidreactor.block.VRBlocks;
+import net.projectk.voidreactor.item.VRItems;
 
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class VRRecipeProvider extends FabricRecipeProvider {
@@ -21,6 +24,12 @@ public class VRRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter exporter) {
+
+        List<ItemConvertible> CELESTIAL_COBBLESTONE = List.of(VRBlocks.CELESTIAL_COBBLESTONE);
+        List<ItemConvertible> RAW_CYMIN = List.of(VRItems.RAW_CYMIN);
+
+        offerSmelting(exporter, CELESTIAL_COBBLESTONE, RecipeCategory.MISC, VRBlocks.CELESTIAL_STONE, 0.05f, 200, "celestial_stone");
+        offerSmelting(exporter, RAW_CYMIN, RecipeCategory.MISC, VRItems.CYMIN_INGOT, 0.05f, 200, "cymin_ingot");
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.NEURON_PLANKS, 4)
                 .input(VRBlocks.NEURON_AXON)
@@ -97,5 +106,14 @@ public class VRRecipeProvider extends FabricRecipeProvider {
                 .input('#', VRBlocks.NEURON_PLANKS)
                 .criterion(hasItem(VRBlocks.NEURON_PLANKS), conditionsFromItem(VRBlocks.NEURON_PLANKS))
                 .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "neuron_trapdoor_from_neuron_planks"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, VRItems.CYMIN_NUGGET, 9)
+                .input(VRItems.CYMIN_INGOT)
+                .criterion(hasItem(VRItems.CYMIN_INGOT), conditionsFromItem(VRItems.CYMIN_INGOT))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "cymin_nugget_from_cymin_ingot"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, VRItems.CYMIN_INGOT, 1)
+                .input(VRItems.CYMIN_NUGGET, 9)
+                .criterion(hasItem(VRItems.CYMIN_NUGGET), conditionsFromItem(VRItems.CYMIN_NUGGET))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "cymin_ingot_from_cymin_nugget"));
     }
 }

@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.projectk.voidreactor.block.VRBlocks;
+import net.projectk.voidreactor.item.VRItems;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -25,6 +26,12 @@ public class VRLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(VRBlocks.CELESTIAL_GRASS_BLOCK, oreDrops(VRBlocks.CELESTIAL_GRASS_BLOCK, VRBlocks.CELESTIAL_DIRT.asItem()));
         addDrop(VRBlocks.CELESTIAL_DIRT);
+        addDrop(VRBlocks.CELESTIAL_STONE, oreDrops(VRBlocks.CELESTIAL_STONE, VRBlocks.CELESTIAL_COBBLESTONE.asItem()));
+        addDrop(VRBlocks.CELESTIAL_COBBLESTONE);
+
+        addDrop(VRBlocks.DARKFIRE_ORE, oreDrops(VRBlocks.DARKFIRE_ORE, VRItems.DARKFIRE_ESSENCE));
+        addDrop(VRBlocks.GENERO_ORE, oreDrops(VRBlocks.GENERO_ORE, VRItems.GENERO_PLASMA));
+        addDrop(VRBlocks.CYMIN_ORE, oreDrops(VRBlocks.CYMIN_ORE, VRItems.RAW_CYMIN));
 
         addDrop(VRBlocks.NEURON_STAIRS);
         addDrop(VRBlocks.NEURON_SLAB, slabDrops(VRBlocks.NEURON_SLAB));

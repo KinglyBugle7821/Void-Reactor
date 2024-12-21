@@ -281,6 +281,105 @@ public class VRBlocks {
                 }
             });
 
+    public static final Block CELESTIAL_STONE = registerBlock("celestial_stone",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).mapColor(MapColor.DARK_AQUA)){
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    if(Screen.hasShiftDown()){
+                        tooltip.add(Text.translatable("tooltip.void_reactor.celestial_stone"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.void_reactor.press_shift"));
+                    }
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            });
+    public static final Block CELESTIAL_COBBLESTONE = registerBlock("celestial_cobblestone",
+            new Block(AbstractBlock.Settings.copy(Blocks.COBBLED_DEEPSLATE).mapColor(MapColor.DARK_AQUA)){
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    if(Screen.hasShiftDown()){
+                        tooltip.add(Text.translatable("tooltip.void_reactor.celestial_cobblestone"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.void_reactor.press_shift"));
+                    }
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            });
+
+    public static final Block DARKFIRE_ORE = registerBlock("darkfire_ore",
+            new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE_COAL_ORE).mapColor(MapColor.GRAY)){
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    if(Screen.hasShiftDown()){
+                        tooltip.add(Text.translatable("tooltip.void_reactor.darkfire_ore"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.void_reactor.press_shift"));
+                    }
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            });
+    public static final Block GENERO_ORE = registerBlock("genero_ore",
+            new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE).mapColor(MapColor.GRAY)){
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    if(Screen.hasShiftDown()){
+                        tooltip.add(Text.translatable("tooltip.void_reactor.genero_ore"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.void_reactor.press_shift"));
+                    }
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            });
+    public static final Block CYMIN_ORE = registerBlock("cymin_ore",
+            new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE_DIAMOND_ORE).mapColor(MapColor.GRAY)){
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    if(Screen.hasShiftDown()){
+                        tooltip.add(Text.translatable("tooltip.void_reactor.cymin_ore"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.void_reactor.press_shift"));
+                    }
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            });
+
+    public static final Block DARKFIRE_BLOCK = registerBlock("darkfire_block",
+            new Block(AbstractBlock.Settings.copy(Blocks.COAL_BLOCK).mapColor(MapColor.GRAY)){
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    if(Screen.hasShiftDown()){
+                        tooltip.add(Text.translatable("tooltip.void_reactor.darkfire_block"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.void_reactor.press_shift"));
+                    }
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            });
+    public static final Block GENERO_BLOCK = registerBlock("genero_block",
+            new Block(AbstractBlock.Settings.copy(Blocks.REDSTONE_BLOCK).mapColor(MapColor.GRAY)){
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    if(Screen.hasShiftDown()){
+                        tooltip.add(Text.translatable("tooltip.void_reactor.cymin_ore"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.void_reactor.press_shift"));
+                    }
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            });
+    public static final Block CYMIN_BLOCK = registerBlock("cymin_block",
+            new Block(AbstractBlock.Settings.copy(Blocks.DIAMOND_BLOCK).mapColor(MapColor.GRAY)){
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    if(Screen.hasShiftDown()){
+                        tooltip.add(Text.translatable("tooltip.void_reactor.cymin_ore"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.void_reactor.press_shift"));
+                    }
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            });
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(VoidReactor.MOD_ID, name), block);

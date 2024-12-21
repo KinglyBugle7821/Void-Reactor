@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.minecraft.block.FireBlock;
 import net.projectk.voidreactor.block.VRBlocks;
+import net.projectk.voidreactor.item.VRItems;
 import net.projectk.voidreactor.particle.VRParticles;
 import net.projectk.voidreactor.world.gen.VRWorldGen;
 import org.slf4j.Logger;
@@ -21,6 +22,7 @@ public class VoidReactor implements ModInitializer {
 		VRBlocks.registerVRBlocks();
 		VRParticles.registerParticles();
 		VRWorldGen.generateModWorldGen();
+		VRItems.registerModItems();
 
 		StrippableBlockRegistry.register(VRBlocks.NEURON_AXON, VRBlocks.STRIPPED_NEURON_AXON);
 		StrippableBlockRegistry.register(VRBlocks.NEURON_MYELIN, VRBlocks.STRIPPED_NEURON_MYELIN);
