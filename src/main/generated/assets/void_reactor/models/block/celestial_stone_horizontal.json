@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "void_reactor:block/celestial_stone_top",
+    "side": "void_reactor:block/celestial_stone"
+  }
+}
