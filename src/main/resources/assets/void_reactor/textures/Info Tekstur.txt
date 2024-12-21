@@ -14,7 +14,7 @@ Block:
 12. Darkfire Block: Fire Block, Tapi Hitam
 13. Genero Block: Mirip Froglight, Tapi Lebih Terang Dan Warna Biru
 14. Cymin Block: Mirip Titanium Block
-15. Zlution Block: Gabungan Cymin Dan Genero Plasma
+15. Zlution Block: Gabungan Cymin Dan Genero Plasma Berwarna Glowing Emas
 
 Item:
 1. Neuron Door: Display Door Di Hotbar

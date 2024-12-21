@@ -319,7 +319,7 @@ public class VRBlocks {
                 }
             });
     public static final Block GENERO_ORE = registerBlock("genero_ore",
-            new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE_REDSTONE_ORE).mapColor(MapColor.GRAY)){
+            new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE_IRON_ORE).mapColor(MapColor.GRAY)){
                 @Override
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
                     if(Screen.hasShiftDown()){
