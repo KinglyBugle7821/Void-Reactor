@@ -6,5 +6,11 @@ Block:
 6. Neuron Trapdoor
 7. Stripped Neuron Axon Top & Bottom
 9. Celestial Tall Grass
+10. Everburn Fruit
+11. Darkfire Ore
+12. Darkfire Igniter(Flint And Steel)
+13. Darkfire Trap (Mirip Jebakan Beruang, tapi saat diinjak akan mengeluarkan darkfire)
 Item:
 1. Tekstur Door Untuk Display Item di Hotbar
+2. Darkfire (bahan bakar furnace)
+3. Tekstur Axon Sprout(Neuron Sapling)

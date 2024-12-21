@@ -1,10 +1,13 @@
 package net.projectk.voidreactor.block.custom;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.LeavesBlock;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
+import net.projectk.voidreactor.block.VRBlocks;
 import net.projectk.voidreactor.particle.VRParticles;
 
 public class NeuronSynapseBlock extends LeavesBlock {
@@ -19,9 +22,8 @@ public class NeuronSynapseBlock extends LeavesBlock {
         if (!world.isClient) {
             return; // Only spawn particles on the client side
         }
-
         // Control the spawn frequency
-        if (random.nextDouble() < 0.1) { // Adjust the probability here (e.g., 0.1 = 10%)
+        if (random.nextDouble() < 0.1 && world.getBlockState(pos.down()).isAir()) { // Adjust the probability here (e.g., 0.1 = 10%)
             // Spawn falling particle, similar to cherry blossoms
             double x = pos.getX() + random.nextDouble(); // Random x within the block
             double y = pos.getY() - 0.1; // Slightly above the block
