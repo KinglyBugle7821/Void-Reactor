@@ -10,19 +10,10 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.server.world.ServerWorld;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Direction;
-import net.minecraft.util.math.random.Random;
-import net.minecraft.world.WorldView;
-import net.minecraft.world.chunk.light.ChunkLightProvider;
 import net.projectk.voidreactor.VoidReactor;
-import net.projectk.voidreactor.block.custom.CelestialGrassBlock;
-import net.projectk.voidreactor.block.custom.NeuronSynapseBlock;
-import net.projectk.voidreactor.block.custom.VRSaplingBlock;
-import net.projectk.voidreactor.block.custom.VRStackableBlocks;
+import net.projectk.voidreactor.block.custom.*;
 import net.projectk.voidreactor.world.tree.VRSaplingGenerators;
 
 import java.util.List;
@@ -269,6 +260,19 @@ public class VRBlocks {
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
                     if(Screen.hasShiftDown()){
                         tooltip.add(Text.translatable("tooltip.void_reactor.celestial_decay"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.void_reactor.press_shift"));
+                    }
+
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            });
+    public static final Block CELESTIAL_VINES = registerBlock("celestial_vines",
+            new VineBlock(AbstractBlock.Settings.copy(Blocks.VINE)){
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    if(Screen.hasShiftDown()){
+                        tooltip.add(Text.translatable("tooltip.void_reactor.celestial_vines"));
                     } else {
                         tooltip.add(Text.translatable("tooltip.void_reactor.press_shift"));
                     }

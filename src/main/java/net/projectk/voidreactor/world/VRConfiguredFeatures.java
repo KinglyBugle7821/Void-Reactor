@@ -1,16 +1,10 @@
 package net.projectk.voidreactor.world;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.entry.RegistryEntryList;
-import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.floatprovider.ConstantFloatProvider;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
-import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.FeatureConfig;
@@ -22,23 +16,22 @@ import net.minecraft.world.gen.trunk.*;
 import net.projectk.voidreactor.VoidReactor;
 import net.projectk.voidreactor.block.VRBlocks;
 
-import java.util.Random;
-
 public class VRConfiguredFeatures {
-    static Random random = new Random();
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> NEURON_KEY = registerKey("neuron");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
-
         register(context, NEURON_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
-                BlockStateProvider.of(VRBlocks.NEURON_AXON),
-                new ForkingTrunkPlacer(5, 2, 4),
-                BlockStateProvider.of(VRBlocks.NEURON_SYNAPSE),
-                new BlobFoliagePlacer(ConstantIntProvider.create(1),
-                        ConstantIntProvider.create(0),
-                        2),
-                new TwoLayersFeatureSize(1, 0, 1)).dirtProvider(BlockStateProvider.of(VRBlocks.CELESTIAL_DIRT)).build());
+                BlockStateProvider.of(VRBlocks.NEURON_AXON), // Trunk block
+                new StraightTrunkPlacer(5, 2, 3),            // Trunk height and randomness
+                BlockStateProvider.of(VRBlocks.NEURON_SYNAPSE), // Foliage block
+                new BlobFoliagePlacer(
+                        ConstantIntProvider.create(2),       // Foliage radius (horizontal spread)
+                        ConstantIntProvider.create(0),       // Offset from trunk
+                        3),                                  // Total height of the foliage
+                new TwoLayersFeatureSize(2, 2, 2))           // Bottom foliage = 2, top foliage = 2
+                .dirtProvider(BlockStateProvider.of(VRBlocks.CELESTIAL_DIRT)) // Dirt block
+                .build());
     }
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(VoidReactor.MOD_ID, name));

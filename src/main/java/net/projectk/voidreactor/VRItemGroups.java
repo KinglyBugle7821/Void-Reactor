@@ -28,6 +28,7 @@ public class VRItemGroups {
                         entries.add(VRBlocks.CELESTIAL_GRASS);
                         entries.add(VRBlocks.CELESTIAL_DIRT);
                         entries.add(VRBlocks.CELESTIAL_DECAY);
+                        entries.add(VRBlocks.CELESTIAL_VINES);
 
                         entries.add(VRBlocks.NEURON_BUTTON);
                         entries.add(VRBlocks.NEURON_DOOR);

@@ -35,7 +35,8 @@ public class VRLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(VRBlocks.NEURON_TRAPDOOR);
         addDrop(VRBlocks.NEURON_BUTTON);
 
-        addDrop(VRBlocks.NEURON_SYNAPSE, leavesDrops(VRBlocks.NEURON_SYNAPSE, VRBlocks.AXON_SPROUT, 0.0625f));
+//        addDrop(VRBlocks.NEURON_SYNAPSE, leavesDrops(VRBlocks.NEURON_SYNAPSE, VRBlocks.AXON_SPROUT, 0.0625f));
+        leavesDrops(VRBlocks.NEURON_SYNAPSE, VRBlocks.AXON_SPROUT, 0,0625f);
 
         //addDrop(VRBlocks.BlockName, oreDrops(BlockName, ItemName));
     }

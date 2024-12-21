@@ -37,5 +37,6 @@ public class VRBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.DIRT)
                 .add(VRBlocks.CELESTIAL_GRASS_BLOCK)
                 .add(VRBlocks.CELESTIAL_DIRT);
+        getOrCreateTagBuilder(BlockTags.CLIMBABLE).add(VRBlocks.CELESTIAL_VINES);
     }
 }

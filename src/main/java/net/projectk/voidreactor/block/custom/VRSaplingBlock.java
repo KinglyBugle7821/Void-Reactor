@@ -11,8 +11,8 @@ import net.minecraft.world.BlockView;
 public class VRSaplingBlock extends SaplingBlock {
     private final Block blockToPlaceOn;
 
-    public VRSaplingBlock(SaplingGenerator generator, Settings settings, Block block) {
-        super(generator, settings);
+    public VRSaplingBlock(SaplingGenerator generator_0, Settings settings, Block block) {
+        super(generator_0, settings);
         this.blockToPlaceOn = block;
     }
 

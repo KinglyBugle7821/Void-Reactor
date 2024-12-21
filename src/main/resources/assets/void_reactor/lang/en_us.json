@@ -20,6 +20,7 @@
   "block.void_reactor.celestial_dirt": "Celestial Dirt",
   "block.void_reactor.celestial_grass": "Celestial Grass",
   "block.void_reactor.celestial_decay": "Celestial Decay",
+  "block.void_reactor.celestial_vines": "Celestial Vines",
 
   "tooltip.void_reactor.press_shift": "§7Hold Shift To Open Tooltip",
 
@@ -44,6 +45,7 @@
   "tooltip.void_reactor.celestial_dirt": "A Type Of Dirt Block Found In The Void Dimension",
   "tooltip.void_reactor.celestial_grass": "A Type Of Grass Found In The Void Dimension",
   "tooltip.void_reactor.celestial_decay": "A Type Of Nature Block Found In The Void Dimension",
+  "tooltip.void_reactor.celestial_vines": "A Type Of Vines Found In The Void Dimension",
 
   "itemgroup.void_reactor.void_reactor_tab": "Void Reactor"
 }
