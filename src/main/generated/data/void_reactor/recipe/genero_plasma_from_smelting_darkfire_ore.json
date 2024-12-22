@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.05,
+  "group": "genero_plasma",
+  "ingredient": {
+    "item": "void_reactor:darkfire_ore"
+  },
+  "result": {
+    "id": "void_reactor:genero_plasma"
+  }
+}

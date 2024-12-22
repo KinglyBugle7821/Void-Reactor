@@ -1,0 +1,26 @@
+{
+  "values": [
+    "void_reactor:celestial_cobblestone",
+    "void_reactor:celestial_stone",
+    "void_reactor:celestial_grass",
+    "void_reactor:celestial_decay",
+    "void_reactor:celestial_tall_grass",
+    "void_reactor:celestial_dirt",
+    "void_reactor:celestial_grass_block",
+    "void_reactor:celestial_vines",
+    "void_reactor:neuron_trapdoor",
+    "void_reactor:neuron_stairs",
+    "void_reactor:neuron_slab",
+    "void_reactor:neuron_door",
+    "void_reactor:neuron_button",
+    "void_reactor:neuron_planks",
+    "void_reactor:neuron_pressure_plate",
+    "void_reactor:neuron_fence_gate",
+    "void_reactor:neuron_fence",
+    "void_reactor:neuron_synapse",
+    "void_reactor:neuron_myelin",
+    "void_reactor:neuron_axon",
+    "void_reactor:stripped_neuron_myelin",
+    "void_reactor:stripped_neuron_axon"
+  ]
+}

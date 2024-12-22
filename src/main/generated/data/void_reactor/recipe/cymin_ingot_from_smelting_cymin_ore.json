@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.05,
+  "group": "cymin_ingot",
+  "ingredient": {
+    "item": "void_reactor:cymin_ore"
+  },
+  "result": {
+    "id": "void_reactor:cymin_ingot"
+  }
+}

@@ -26,10 +26,14 @@ public class VRRecipeProvider extends FabricRecipeProvider {
     public void generate(RecipeExporter exporter) {
 
         List<ItemConvertible> CELESTIAL_COBBLESTONE = List.of(VRBlocks.CELESTIAL_COBBLESTONE);
-        List<ItemConvertible> RAW_CYMIN = List.of(VRItems.RAW_CYMIN);
+        List<ItemConvertible> DARKFIRE_ORE = List.of(VRBlocks.DARKFIRE_ORE);
+        List<ItemConvertible> GENERO_ORE = List.of(VRBlocks.GENERO_ORE);
+        List<ItemConvertible> RAW_CYMIN = List.of(VRItems.RAW_CYMIN, VRBlocks.CYMIN_ORE);
 
         offerSmelting(exporter, CELESTIAL_COBBLESTONE, RecipeCategory.MISC, VRBlocks.CELESTIAL_STONE, 0.05f, 200, "celestial_stone");
         offerSmelting(exporter, RAW_CYMIN, RecipeCategory.MISC, VRItems.CYMIN_INGOT, 0.05f, 200, "cymin_ingot");
+        offerSmelting(exporter, DARKFIRE_ORE, RecipeCategory.MISC, VRItems.GENERO_PLASMA, 0.05f, 200, "genero_plasma");
+        offerSmelting(exporter, GENERO_ORE, RecipeCategory.MISC, VRItems.DARKFIRE_ESSENCE, 0.05f, 200, "darkfire_ingot");
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.NEURON_PLANKS, 4)
                 .input(VRBlocks.NEURON_AXON)

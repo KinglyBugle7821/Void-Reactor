@@ -19,6 +19,7 @@
   "block.void_reactor.celestial_grass_block": "Celestial Grass Block",
   "block.void_reactor.celestial_dirt": "Celestial Dirt",
   "block.void_reactor.celestial_grass": "Celestial Grass",
+  "block.void_reactor.celestial_tall_grass": "Celestial Tall Grass",
   "block.void_reactor.celestial_decay": "Celestial Decay",
   "block.void_reactor.celestial_vines": "Celestial Vines",
   "block.void_reactor.celestial_stone": "Celestial Stone",
@@ -28,7 +29,7 @@
   "block.void_reactor.genero_ore": "Genero Ore",
   "block.void_reactor.cymin_ore": "Cymin Ore",
 
-  "block.void_reactor.darkfire_block": "Darkfire Block",
+  "block.void_reactor.darkfire_block": "Darkfire",
   "block.void_reactor.genero_block": "Genero Block",
   "block.void_reactor.cymin_block": "Cymin Block",
 
@@ -62,6 +63,7 @@
   "tooltip.void_reactor.celestial_grass_block": "A Type Of Grass Block Found In The Void Dimension",
   "tooltip.void_reactor.celestial_dirt": "A Type Of Dirt Block Found In The Void Dimension",
   "tooltip.void_reactor.celestial_grass": "A Type Of Grass Found In The Void Dimension",
+  "tooltip.void_reactor.celestial_tall_grass": "A Type Of Tall Grass Found In The Void Dimension",
   "tooltip.void_reactor.celestial_decay": "A Type Of Nature Block Found In The Void Dimension",
   "tooltip.void_reactor.celestial_vines": "A Type Of Vines Found In The Void Dimension",
   "tooltip.void_reactor.celestial_stone": "A Type Of Stone Found In The Void Dimension",
@@ -77,7 +79,7 @@
 
 
   "tooltip.void_reactor.darkfire_essence": "A Type Fuel Gathered From Darkfire Ore Found In The Void Dimension",
-  "tooltip.void_reactor.genero_plama": "A Type Plasma Gathered From Genero Ore Found In The Void Dimension",
+  "tooltip.void_reactor.genero_plsama": "A Type Plasma Gathered From Genero Ore Found In The Void Dimension",
   "tooltip.void_reactor.raw_cymin": "A Type Raw Metal Gathered From Cymin Ore Found In The Void Dimension",
   "tooltip.void_reactor.cymin_ingot": "A Type Ingot Smelted From Raw Cymin",
   "tooltip.void_reactor.cymin_nugget": "A Type Nugget Crafted From Cymin Ingot",

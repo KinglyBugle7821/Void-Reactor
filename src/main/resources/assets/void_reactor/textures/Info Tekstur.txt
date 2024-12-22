@@ -1,23 +1,18 @@
 Buat Tekstur Untuk
 Block:
-1. Axon Sprout: Neuron Sapling
-2. Neuron Door: Tekstur Top Dan Bottom
+1. Axon Sprout: Neuron Sapling -
 3. Neuron Planks
 4. Neuron Trapdoor
 5. Stripped Neuron Axon: Tekstur Top Dan Side
-6. Celestial Tall Grass: Tekstur Top Dan Bottom
 7. Everburn Fruit: Buat Tekstur Dan Model Buah Everburn. Model Digantung Dan Ditanah
-8. Celestial Stone: Top Dan Bottom
 9. Darkfire Ore: Mirip Api Hitam
 10. Genero Ore: Mirip Plasma Biru
-11. Cymin Ore: Mirip Titanium
-12. Darkfire Block: Fire Block, Tapi Hitam
+11. Cymin Ore: Mirip Titaniu
 13. Genero Block: Mirip Froglight, Tapi Lebih Terang Dan Warna Biru
 14. Cymin Block: Mirip Titanium Block
 15. Zlution Block: Gabungan Cymin Dan Genero Plasma Berwarna Glowing Emas
 
 Item:
-1. Neuron Door: Display Door Di Hotbar
 2. Everburn Fruit: Display Buah Di Hotbar
 3. Darkfire Essence
 4. Darkfire Igniter: Fire Charge, Tapi Untuk Darkfire

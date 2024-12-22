@@ -1,16 +1,7 @@
 {
   "variants": {
-    "axis=x": {
-      "model": "void_reactor:block/celestial_stone_horizontal",
-      "x": 90,
-      "y": 90
-    },
-    "axis=y": {
+    "": {
       "model": "void_reactor:block/celestial_stone"
-    },
-    "axis=z": {
-      "model": "void_reactor:block/celestial_stone_horizontal",
-      "x": 90
     }
   }
 }

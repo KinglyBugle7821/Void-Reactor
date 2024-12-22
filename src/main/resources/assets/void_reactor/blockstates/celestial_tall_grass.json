@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "void_reactor:block/celestial_tall_grass_bottom"
+    },
+    "half=upper": {
+      "model": "void_reactor:block/celestial_tall_grass_top"
+    }
+  }
+}

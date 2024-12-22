@@ -1,0 +1,6 @@
+{
+  "message_id": "death.darkfire", // Reference to your lang file for death messages
+  "scaling": "never",
+  "exhaustion": 0.1,
+  "fire": true // Indicates that this is a fire-based damage type
+}

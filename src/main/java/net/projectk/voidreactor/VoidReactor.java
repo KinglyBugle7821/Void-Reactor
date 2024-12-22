@@ -5,6 +5,10 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.minecraft.block.FireBlock;
+import net.minecraft.entity.damage.DamageType;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.util.Identifier;
 import net.projectk.voidreactor.block.VRBlocks;
 import net.projectk.voidreactor.item.VRItems;
 import net.projectk.voidreactor.particle.VRParticles;
@@ -16,6 +20,10 @@ public class VoidReactor implements ModInitializer {
 	public static final String MOD_ID = "void_reactor";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
+	public static final RegistryKey<DamageType> DARKFIRE_DAMAGE_TYPE = RegistryKey.of(
+			RegistryKeys.DAMAGE_TYPE,
+            Identifier.of("void_reactor", "darkfire")
+	);
 	@Override
 	public void onInitialize() {
 		VRItemGroups.registerItemGroups();

@@ -20,7 +20,6 @@ public class VRModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(VRBlocks.NEURON_AXON).log(VRBlocks.NEURON_AXON).wood(VRBlocks.NEURON_MYELIN);
         blockStateModelGenerator.registerLog(VRBlocks.STRIPPED_NEURON_AXON).log(VRBlocks.STRIPPED_NEURON_AXON).wood(VRBlocks.STRIPPED_NEURON_MYELIN);
 
-        blockStateModelGenerator.registerLog(VRBlocks.CELESTIAL_STONE).log(VRBlocks.CELESTIAL_STONE);
         blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.CELESTIAL_COBBLESTONE);
 
 
@@ -28,7 +27,6 @@ public class VRModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.GENERO_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.CYMIN_ORE);
 
-        blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.DARKFIRE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.GENERO_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.CYMIN_BLOCK);
 
@@ -40,6 +38,7 @@ public class VRModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTintableCrossBlockState(VRBlocks.CELESTIAL_GRASS, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.CELESTIAL_DIRT);
+        blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.CELESTIAL_STONE);
 
         neuronPool.stairs(VRBlocks.NEURON_STAIRS);
         neuronPool.slab(VRBlocks.NEURON_SLAB);

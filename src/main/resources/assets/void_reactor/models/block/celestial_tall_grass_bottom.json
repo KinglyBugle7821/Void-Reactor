@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "void_reactor:block/celestial_tall_grass_bottom"
+  }
+}

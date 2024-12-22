@@ -21,6 +21,8 @@ public class VoidReactorClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.NEURON_AXON, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.NEURON_SYNAPSE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.CELESTIAL_VINES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.CELESTIAL_TALL_GRASS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.DARKFIRE_BLOCK, RenderLayer.getCutout());
 
         ParticleFactoryRegistry.getInstance().register(VRParticles.NEURON_SYNAPSE_FALLING_PARTICLE, NeuronSynapseFallingParticle.Factory::new);
 

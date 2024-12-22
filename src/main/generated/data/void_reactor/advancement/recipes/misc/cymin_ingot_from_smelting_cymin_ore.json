@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cymin_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "void_reactor:cymin_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cymin_ingot_from_smelting_cymin_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cymin_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cymin_ingot_from_smelting_cymin_ore"
+    ]
+  }
+}

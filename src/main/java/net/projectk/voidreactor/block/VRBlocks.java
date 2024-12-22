@@ -10,6 +10,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.projectk.voidreactor.VoidReactor;
@@ -254,6 +255,19 @@ public class VRBlocks {
                     super.appendTooltip(stack, context, tooltip, options);
                 }
             });
+    public static final Block CELESTIAL_TALL_GRASS = registerBlock("celestial_tall_grass",
+            new TallPlantBlock(AbstractBlock.Settings.copy(Blocks.TALL_GRASS)){
+                @Override
+                public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+                    if(Screen.hasShiftDown()){
+                        tooltip.add(Text.translatable("tooltip.void_reactor.celestial_grass"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.void_reactor.press_shift"));
+                    }
+
+                    super.appendTooltip(stack, context, tooltip, options);
+                }
+            });
     public static final Block CELESTIAL_DECAY = registerBlock("celestial_decay",
             new VRStackableBlocks(AbstractBlock.Settings.copy(Blocks.PINK_PETALS)){
                 @Override
@@ -282,7 +296,7 @@ public class VRBlocks {
             });
 
     public static final Block CELESTIAL_STONE = registerBlock("celestial_stone",
-            new PillarBlock(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).mapColor(MapColor.DARK_AQUA)){
+            new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).mapColor(MapColor.DARK_AQUA)){
                 @Override
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
                     if(Screen.hasShiftDown()){
@@ -344,7 +358,7 @@ public class VRBlocks {
             });
 
     public static final Block DARKFIRE_BLOCK = registerBlock("darkfire_block",
-            new Block(AbstractBlock.Settings.copy(Blocks.COAL_BLOCK).mapColor(MapColor.GRAY)){
+            new VRFireBlock(AbstractBlock.Settings.copy(Blocks.FIRE).mapColor(MapColor.GRAY).sounds(BlockSoundGroup.TRIAL_SPAWNER)){
                 @Override
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
                     if(Screen.hasShiftDown()){

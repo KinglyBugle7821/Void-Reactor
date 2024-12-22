@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "void_reactor:block/celestial_decay",
-		"particle": "void_reactor:block/celestial_decay"
+		"0": "void_reactor:block/celestial_decay_e",
+		"particle": "void_reactor:block/celestial_decay_e"
 	},
 	"elements": [
 		{
