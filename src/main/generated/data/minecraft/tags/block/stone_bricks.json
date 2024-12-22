@@ -1,0 +1,14 @@
+{
+  "values": [
+    "void_reactor:celestial_stone_bricks",
+    "void_reactor:celestial_stone_brick_stairs",
+    "void_reactor:celestial_stone_brick_slab",
+    "void_reactor:cracked_celestial_stone_bricks",
+    "void_reactor:chiseled_celestial_stone_bricks",
+    "void_reactor:celestial_stone_brick_wall",
+    "void_reactor:mossy_celestial_stone_bricks",
+    "void_reactor:mossy_celestial_stone_brick_stairs",
+    "void_reactor:mossy_celestial_stone_brick_slab",
+    "void_reactor:mossy_celestial_stone_brick_wall"
+  ]
+}

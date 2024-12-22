@@ -10,6 +10,8 @@ import net.projectk.voidreactor.VoidReactor;
 public class VRTags {
     public static class Blocks {
         public static final TagKey<Block> CELESTIAL_BLOCKS = createTag("celestial_blocks");
+        public static final TagKey<Block> REINFORCED_GLASS_BLOCKS = createTag("reinforced_glass_blocks");
+        public static final TagKey<Block> REINFORCED_GLASS_BLOCK_PANES = createTag("reinforced_glass_block_panes");
 
         private static TagKey<Block> createTag(String name){
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(VoidReactor.MOD_ID, name));

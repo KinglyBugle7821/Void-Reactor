@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "void_reactor:block/yellow_stained_reinforced_glass"
+  }
+}

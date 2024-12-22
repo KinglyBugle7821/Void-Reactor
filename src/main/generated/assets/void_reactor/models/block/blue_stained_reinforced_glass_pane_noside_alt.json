@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "void_reactor:block/blue_stained_reinforced_glass"
+  }
+}

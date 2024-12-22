@@ -22,7 +22,7 @@ import net.projectk.voidreactor.block.VRBlocks;
 import java.util.List;
 
 public class CelestialGrassBlock extends SpreadableBlock {
-    protected CelestialGrassBlock(Settings settings) {
+    public CelestialGrassBlock(Settings settings) {
         super(settings);
     }
 

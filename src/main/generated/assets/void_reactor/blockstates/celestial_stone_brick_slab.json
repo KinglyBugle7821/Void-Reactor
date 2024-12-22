@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "void_reactor:block/celestial_stone_brick_slab"
+    },
+    "type=double": {
+      "model": "void_reactor:block/celestial_stone_bricks"
+    },
+    "type=top": {
+      "model": "void_reactor:block/celestial_stone_brick_slab_top"
+    }
+  }
+}

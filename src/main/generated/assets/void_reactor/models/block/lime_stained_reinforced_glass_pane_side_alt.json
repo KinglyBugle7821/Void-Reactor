@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "void_reactor:block/lime_stained_reinforced_glass_pane_top",
+    "pane": "void_reactor:block/lime_stained_reinforced_glass"
+  }
+}

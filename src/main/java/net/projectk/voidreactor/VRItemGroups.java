@@ -32,8 +32,70 @@ public class VRItemGroups {
                         entries.add(VRBlocks.CELESTIAL_DECAY);
                         entries.add(VRBlocks.CELESTIAL_VINES);
 
+                        entries.add(VRBlocks.REINFORCED_GLASS);
+                        entries.add(VRBlocks.RED_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.BLACK_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.BLUE_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.BROWN_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.GREEN_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.WHITE_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.YELLOW_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.LIGHT_BLUE_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.LIGHT_GRAY_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.LIME_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.MAGENTA_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.ORANGE_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.PINK_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.CYAN_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.GRAY_STAINED_REINFORCED_GLASS);
+                        entries.add(VRBlocks.PURPLE_STAINED_REINFORCED_GLASS);
+
+                        entries.add(VRBlocks.REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.RED_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.BLACK_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.BLUE_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.BROWN_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.GREEN_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.WHITE_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.YELLOW_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.LIGHT_BLUE_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.LIGHT_GRAY_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.LIME_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.MAGENTA_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.ORANGE_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.PINK_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.CYAN_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.GRAY_STAINED_REINFORCED_GLASS_PANE);
+                        entries.add(VRBlocks.PURPLE_STAINED_REINFORCED_GLASS_PANE);
+
+
                         entries.add(VRBlocks.CELESTIAL_STONE);
+                        entries.add(VRBlocks.SMOOTH_CELESTIAL_STONE_SLAB);
+                        entries.add(VRBlocks.SMOOTH_CELESTIAL_STONE);
+                        entries.add(VRBlocks.CELESTIAL_STONE_STAIRS);
+                        entries.add(VRBlocks.CELESTIAL_STONE_SLAB);
+
                         entries.add(VRBlocks.CELESTIAL_COBBLESTONE);
+                        entries.add(VRBlocks.CELESTIAL_COBBLESTONE_STAIRS);
+                        entries.add(VRBlocks.CELESTIAL_COBBLESTONE_SLAB);
+                        entries.add(VRBlocks.CELESTIAL_COBBLESTONE_WALL);
+
+                        entries.add(VRBlocks.CELESTIAL_STONE_BRICKS);
+                        entries.add(VRBlocks.CELESTIAL_STONE_BRICK_STAIRS);
+                        entries.add(VRBlocks.CELESTIAL_STONE_BRICK_SLAB);
+                        entries.add(VRBlocks.CRACKED_CELESTIAL_STONE_BRICKS);
+                        entries.add(VRBlocks.CHISELED_CELESTIAL_STONE_BRICKS);
+                        entries.add(VRBlocks.CELESTIAL_STONE_BRICK_WALL);
+
+                        entries.add(VRBlocks.MOSSY_CELESTIAL_COBBLESTONE);
+                        entries.add(VRBlocks.MOSSY_CELESTIAL_COBBLESTONE_STAIRS);
+                        entries.add(VRBlocks.MOSSY_CELESTIAL_COBBLESTONE_SLAB);
+                        entries.add(VRBlocks.MOSSY_CELESTIAL_COBBLESTONE_WALL);
+
+                        entries.add(VRBlocks.MOSSY_CELESTIAL_STONE_BRICKS);
+                        entries.add(VRBlocks.MOSSY_CELESTIAL_STONE_BRICK_STAIRS);
+                        entries.add(VRBlocks.MOSSY_CELESTIAL_STONE_BRICK_SLAB);
+                        entries.add(VRBlocks.MOSSY_CELESTIAL_STONE_BRICK_WALL);
 
                         entries.add(VRBlocks.DARKFIRE_ORE);
                         entries.add(VRBlocks.GENERO_ORE);

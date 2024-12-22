@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "void_reactor:block/smooth_celestial_stone_slab"
+    },
+    "type=double": {
+      "model": "void_reactor:block/smooth_celestial_stone"
+    },
+    "type=top": {
+      "model": "void_reactor:block/smooth_celestial_stone_slab_top"
+    }
+  }
+}

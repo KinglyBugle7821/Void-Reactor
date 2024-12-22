@@ -1,0 +1,21 @@
+{
+  "values": [
+    "void_reactor:reinforced_glass_pane",
+    "void_reactor:red_stained_reinforced_glass_pane",
+    "void_reactor:black_stained_reinforced_glass_pane",
+    "void_reactor:blue_stained_reinforced_glass_pane",
+    "void_reactor:brown_stained_reinforced_glass_pane",
+    "void_reactor:green_stained_reinforced_glass_pane",
+    "void_reactor:white_stained_reinforced_glass_pane",
+    "void_reactor:yellow_stained_reinforced_glass_pane",
+    "void_reactor:light_blue_stained_reinforced_glass_pane",
+    "void_reactor:light_gray_stained_reinforced_glass_pane",
+    "void_reactor:lime_stained_reinforced_glass_pane",
+    "void_reactor:magenta_stained_reinforced_glass_pane",
+    "void_reactor:orange_stained_reinforced_glass_pane",
+    "void_reactor:pink_stained_reinforced_glass_pane",
+    "void_reactor:cyan_stained_reinforced_glass_pane",
+    "void_reactor:gray_stained_reinforced_glass_pane",
+    "void_reactor:purple_stained_reinforced_glass_pane"
+  ]
+}

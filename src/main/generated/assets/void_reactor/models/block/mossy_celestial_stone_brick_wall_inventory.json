@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "void_reactor:block/mossy_celestial_stone_bricks"
+  }
+}

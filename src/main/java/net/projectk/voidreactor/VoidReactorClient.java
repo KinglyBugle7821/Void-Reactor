@@ -24,6 +24,60 @@ public class VoidReactorClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.CELESTIAL_TALL_GRASS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.DARKFIRE_BLOCK, RenderLayer.getCutout());
 
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.RED_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.BLACK_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.BLUE_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.BROWN_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.GREEN_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.WHITE_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.YELLOW_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.LIGHT_BLUE_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.LIGHT_GRAY_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.LIME_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.MAGENTA_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.ORANGE_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.PINK_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.CYAN_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.GRAY_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.PURPLE_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.RED_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.BLACK_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.BLUE_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.BROWN_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.GREEN_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.WHITE_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.YELLOW_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.LIGHT_BLUE_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.LIGHT_GRAY_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.LIME_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.MAGENTA_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.ORANGE_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.PINK_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.CYAN_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.GRAY_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.PURPLE_STAINED_REINFORCED_GLASS, RenderLayer.getTranslucent());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.RED_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.BLACK_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.BLUE_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.BROWN_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.GREEN_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.WHITE_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.YELLOW_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.LIGHT_BLUE_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.LIGHT_GRAY_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.LIME_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.MAGENTA_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.ORANGE_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.PINK_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.CYAN_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.GRAY_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(VRBlocks.PURPLE_STAINED_REINFORCED_GLASS_PANE, RenderLayer.getTranslucent());
+
+
         ParticleFactoryRegistry.getInstance().register(VRParticles.NEURON_SYNAPSE_FALLING_PARTICLE, NeuronSynapseFallingParticle.Factory::new);
 
     }
