@@ -102,6 +102,53 @@
   "block.void_reactor.gray_stained_reinforced_glass_pane": "Gray Stained Reinforced Glass Pane",
   "block.void_reactor.purple_stained_reinforced_glass_pane": "Purple Stained Reinforced Glass Pane",
 
+  "block.void_reactor.slate": "Slate",
+  "block.void_reactor.slate_stairs": "Slate Stairs",
+  "block.void_reactor.slate_slab": "Slate Slab",
+  "block.void_reactor.slate_wall": "Slate Wall",
+
+  "block.void_reactor.smooth_slate": "Smooth Slate",
+  "block.void_reactor.smooth_slate_stairs": "Smooth Slate Stairs",
+  "block.void_reactor.smooth_slate_slab": "Smooth Slate Slab",
+  "block.void_reactor.smooth_slate_wall": "Smooth Slate Wall",
+
+  "block.void_reactor.cobbled_slate": "Cobbled Slate",
+  "block.void_reactor.cobbled_slate_stairs": "Cobbled Slate Stairs",
+  "block.void_reactor.cobbled_slate_slab": "Cobbled Slate Slab",
+  "block.void_reactor.cobbled_slate_wall": "Cobbled Slate Wall",
+
+  "block.void_reactor.slate_tile": "Slate Tile",
+  "block.void_reactor.slate_tile_stairs": "Slate Tile Stairs",
+  "block.void_reactor.slate_tile_slab": "Slate Tile Slab",
+  "block.void_reactor.slate_tile_wall": "Slate Tile Wall",
+  "block.void_reactor.chiseled_slate_tile": "Chiseled Slate Tile",
+  "block.void_reactor.cracked_slate_tile": "Cracked Slate Tile",
+  "block.void_reactor.cracked_slate_tile_stairs": "Cracked Slate Tile Stairs",
+  "block.void_reactor.cracked_slate_tile_slab": "Cracked Slate Tile Slab",
+  "block.void_reactor.cracked_slate_tile_wall": "Cracked Slate Tile Wall",
+
+  "block.void_reactor.polished_slate": "Polished Slate",
+  "block.void_reactor.polished_slate_stairs": "Polished Slate Stairs",
+  "block.void_reactor.polished_slate_slab": "Polished Slate Slab",
+  "block.void_reactor.polished_slate_wall": "Polished Slate Wall",
+  "block.void_reactor.chiseled_polished_slate": "Chiseled Polished Slate",
+  "block.void_reactor.cracked_polished_slate": "Cracked Polished Slate",
+  "block.void_reactor.cracked_polished_slate_stairs": "Cracked Polished Slate Stairs",
+  "block.void_reactor.cracked_polished_slate_slab": "Cracked Polished Slate Slab",
+  "block.void_reactor.cracked_polished_slate_wall": "Cracked Polished Slate Wall",
+
+  "block.void_reactor.slate_bricks": "Slate Bricks",
+  "block.void_reactor.slate_brick_stairs": "Slate Brick Stairs",
+  "block.void_reactor.slate_brick_slab": "Slate Brick Slab",
+  "block.void_reactor.slate_brick_wall": "Slate Brick Wall",
+  "block.void_reactor.chiseled_slate_bricks": "Chiseled Slate Bricks",
+  "block.void_reactor.cracked_slate_bricks": "Cracked Slate Bricks",
+  "block.void_reactor.cracked_slate_brick_stairs": "Cracked Slate Brick Stairs",
+  "block.void_reactor.cracked_slate_brick_slab": "Cracked Slate Brick Slab",
+  "block.void_reactor.cracked_slate_brick_wall": "Cracked Slate Brick Wall",
+
+  "death.attack.death.darkfire": "%1$s Was Consumed By The Wrath Of Darkfire",
+
   "tooltip.void_reactor.press_shift": "§7Hold Shift To Open Tooltip",
 
   "itemgroup.void_reactor.void_reactor_tab": "Void Reactor"

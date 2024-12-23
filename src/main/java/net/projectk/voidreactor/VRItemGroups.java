@@ -68,7 +68,6 @@ public class VRItemGroups {
                         entries.add(VRBlocks.GRAY_STAINED_REINFORCED_GLASS_PANE);
                         entries.add(VRBlocks.PURPLE_STAINED_REINFORCED_GLASS_PANE);
 
-
                         entries.add(VRBlocks.CELESTIAL_STONE);
                         entries.add(VRBlocks.SMOOTH_CELESTIAL_STONE_SLAB);
                         entries.add(VRBlocks.SMOOTH_CELESTIAL_STONE);
@@ -113,6 +112,50 @@ public class VRItemGroups {
                         entries.add(VRBlocks.NEURON_STAIRS);
                         entries.add(VRBlocks.NEURON_TRAPDOOR);
 
+                        entries.add(VRBlocks.SLATE);
+                        entries.add(VRBlocks.SLATE_STAIRS);
+                        entries.add(VRBlocks.SLATE_SLAB);
+                        entries.add(VRBlocks.SLATE_WALL);
+
+                        entries.add(VRBlocks.SMOOTH_SLATE);
+                        entries.add(VRBlocks.SMOOTH_SLATE_STAIRS);
+                        entries.add(VRBlocks.SMOOTH_SLATE_SLAB);
+                        entries.add(VRBlocks.SMOOTH_SLATE_WALL);
+
+                        entries.add(VRBlocks.COBBLED_SLATE);
+                        entries.add(VRBlocks.COBBLED_SLATE_STAIRS);
+                        entries.add(VRBlocks.COBBLED_SLATE_SLAB);
+                        entries.add(VRBlocks.COBBLED_SLATE_WALL);
+
+                        entries.add(VRBlocks.SLATE_TILE);
+                        entries.add(VRBlocks.SLATE_TILE_STAIRS);
+                        entries.add(VRBlocks.SLATE_TILE_SLAB);
+                        entries.add(VRBlocks.SLATE_TILE_WALL);
+                        entries.add(VRBlocks.CHISELED_SLATE_TILE);
+                        entries.add(VRBlocks.CRACKED_SLATE_TILE);
+                        entries.add(VRBlocks.CRACKED_SLATE_TILE_STAIRS);
+                        entries.add(VRBlocks.CRACKED_SLATE_TILE_SLAB);
+                        entries.add(VRBlocks.CRACKED_SLATE_TILE_WALL);
+
+                        entries.add(VRBlocks.POLISHED_SLATE);
+                        entries.add(VRBlocks.POLISHED_SLATE_STAIRS);
+                        entries.add(VRBlocks.POLISHED_SLATE_SLAB);
+                        entries.add(VRBlocks.POLISHED_SLATE_WALL);
+                        entries.add(VRBlocks.CHISELED_POLISHED_SLATE);
+                        entries.add(VRBlocks.CRACKED_POLISHED_SLATE);
+                        entries.add(VRBlocks.CRACKED_POLISHED_SLATE_STAIRS);
+                        entries.add(VRBlocks.CRACKED_POLISHED_SLATE_SLAB);
+                        entries.add(VRBlocks.CRACKED_POLISHED_SLATE_WALL);
+
+                        entries.add(VRBlocks.SLATE_BRICKS);
+                        entries.add(VRBlocks.SLATE_BRICK_STAIRS);
+                        entries.add(VRBlocks.SLATE_BRICK_SLAB);
+                        entries.add(VRBlocks.SLATE_BRICK_WALL);
+                        entries.add(VRBlocks.CHISELED_SLATE_BRICKS);
+                        entries.add(VRBlocks.CRACKED_SLATE_BRICKS);
+                        entries.add(VRBlocks.CRACKED_SLATE_BRICK_STAIRS);
+                        entries.add(VRBlocks.CRACKED_SLATE_BRICK_SLAB);
+                        entries.add(VRBlocks.CRACKED_SLATE_BRICK_WALL);
 
                         entries.add(VRItems.DARKFIRE_ESSENCE);
                         entries.add(VRItems.GENERO_PLASMA);

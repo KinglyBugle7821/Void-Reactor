@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.05,
+  "group": "slate",
+  "ingredient": {
+    "item": "void_reactor:polished_slate"
+  },
+  "result": {
+    "id": "void_reactor:cracked_polished_slate"
+  }
+}

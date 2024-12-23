@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "redstone",
   "key": {
     "#": {
-      "item": "void_reactor:neuron_planks"
-    },
-    "S": {
       "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "void_reactor:neuron_planks"
     }
   },
   "pattern": [
-    "S#S",
-    "S#S"
+    "#W#",
+    "#W#"
   ],
   "result": {
     "count": 1,

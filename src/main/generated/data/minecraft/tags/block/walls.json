@@ -3,6 +3,15 @@
     "void_reactor:celestial_cobblestone_wall",
     "void_reactor:celestial_stone_brick_wall",
     "void_reactor:mossy_celestial_cobblestone_wall",
-    "void_reactor:mossy_celestial_stone_brick_wall"
+    "void_reactor:mossy_celestial_stone_brick_wall",
+    "void_reactor:slate_wall",
+    "void_reactor:smooth_slate_wall",
+    "void_reactor:cobbled_slate_wall",
+    "void_reactor:slate_tile_wall",
+    "void_reactor:cracked_slate_tile_wall",
+    "void_reactor:polished_slate_wall",
+    "void_reactor:cracked_polished_slate_wall",
+    "void_reactor:slate_brick_wall",
+    "void_reactor:cracked_slate_brick_wall"
   ]
 }

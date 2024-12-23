@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "void_reactor:block/cracked_polished_slate_slab"
+    },
+    "type=double": {
+      "model": "void_reactor:block/cracked_polished_slate"
+    },
+    "type=top": {
+      "model": "void_reactor:block/cracked_polished_slate_slab_top"
+    }
+  }
+}

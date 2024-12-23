@@ -6,6 +6,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.FireBlock;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.predicate.entity.DamageSourcePredicate;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.BlockTags;
@@ -58,19 +59,22 @@ public class VRFireBlock extends FireBlock {
     protected void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
         super.onEntityCollision(state, world, pos, entity);
         if (!world.isClient && world instanceof ServerWorld serverWorld) {
-            Vec3d knockbackDirection = entity.getPos().subtract(Vec3d.ofCenter(pos)).normalize();
-            var registryManager = serverWorld.getRegistryManager();
-            var darkfireDamageType = registryManager.get(RegistryKeys.DAMAGE_TYPE)
-                    .getEntry(DARKFIRE_DAMAGE_TYPE).orElseThrow();
-            DamageSource darkfireDamageSource = new DamageSource(darkfireDamageType);
-            float customDamage = 5.0F;
+            if (entity instanceof PlayerEntity player){
+                if (!player.isCreative()){
+                    Vec3d knockbackDirection = entity.getPos().subtract(Vec3d.ofCenter(pos)).normalize();
+                    var registryManager = serverWorld.getRegistryManager();
+                    var darkfireDamageType = registryManager.get(RegistryKeys.DAMAGE_TYPE)
+                            .getEntry(DARKFIRE_DAMAGE_TYPE).orElseThrow();
+                    DamageSource darkfireDamageSource = new DamageSource(darkfireDamageType);
+                    float customDamage = 5.0F;
 
-            entity.damage(darkfireDamageSource, customDamage);
-            double knockbackStrength = 1;
-            entity.setVelocity(entity.getVelocity().add(knockbackDirection.multiply(knockbackStrength)));
-            entity.velocityModified = true;
+                    entity.damage(darkfireDamageSource, customDamage);
+                    double knockbackStrength = 1;
+                    entity.setVelocity(entity.getVelocity().add(knockbackDirection.multiply(knockbackStrength)));
+                    entity.velocityModified = true;
+                }
+            }
         }
-        super.onEntityCollision(state, world, pos, entity);
         super.onEntityCollision(state, world, pos, entity);
     }
 }

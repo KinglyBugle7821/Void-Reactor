@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "void_reactor:block/cracked_slate_bricks"
+    }
+  }
+}

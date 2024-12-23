@@ -196,6 +196,90 @@ public class VRBlocks {
     public static final Block PURPLE_STAINED_REINFORCED_GLASS_PANE = registerBlock("purple_stained_reinforced_glass_pane",
             new StainedGlassPaneBlock(DyeColor.PURPLE, AbstractBlock.Settings.copy(Blocks.OBSIDIAN).nonOpaque().mapColor(MapColor.PURPLE).sounds(BlockSoundGroup.GLASS)));
 
+    public static final Block SLATE = registerBlock("slate",
+            new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_STAIRS = registerBlock("slate_stairs",
+            new StairsBlock(VRBlocks.SLATE.getDefaultState() ,AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_SLAB = registerBlock("slate_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_WALL = registerBlock("slate_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+
+    public static final Block SMOOTH_SLATE = registerBlock("smooth_slate",
+            new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SMOOTH_SLATE_STAIRS = registerBlock("smooth_slate_stairs",
+            new StairsBlock(VRBlocks.SMOOTH_SLATE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SMOOTH_SLATE_SLAB = registerBlock("smooth_slate_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SMOOTH_SLATE_WALL = registerBlock("smooth_slate_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+
+    public static final Block COBBLED_SLATE = registerBlock("cobbled_slate",
+            new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block COBBLED_SLATE_STAIRS = registerBlock("cobbled_slate_stairs",
+            new StairsBlock(VRBlocks.COBBLED_SLATE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block COBBLED_SLATE_SLAB = registerBlock("cobbled_slate_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block COBBLED_SLATE_WALL = registerBlock("cobbled_slate_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+
+    public static final Block SLATE_TILE = registerBlock("slate_tile",
+            new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_TILE_STAIRS = registerBlock("slate_tile_stairs",
+            new StairsBlock(VRBlocks.SLATE_TILE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_TILE_SLAB = registerBlock("slate_tile_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_TILE_WALL = registerBlock("slate_tile_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CHISELED_SLATE_TILE = registerBlock("chiseled_slate_tile",
+            new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_SLATE_TILE = registerBlock("cracked_slate_tile",
+            new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_SLATE_TILE_STAIRS = registerBlock("cracked_slate_tile_stairs",
+            new StairsBlock(VRBlocks.CRACKED_SLATE_TILE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_SLATE_TILE_SLAB = registerBlock("cracked_slate_tile_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_SLATE_TILE_WALL = registerBlock("cracked_slate_tile_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+
+    public static final Block POLISHED_SLATE = registerBlock("polished_slate",
+            new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block POLISHED_SLATE_STAIRS = registerBlock("polished_slate_stairs",
+            new StairsBlock(VRBlocks.POLISHED_SLATE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block POLISHED_SLATE_SLAB = registerBlock("polished_slate_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block POLISHED_SLATE_WALL = registerBlock("polished_slate_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CHISELED_POLISHED_SLATE = registerBlock("chiseled_polished_slate",
+            new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_POLISHED_SLATE = registerBlock("cracked_polished_slate",
+            new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_POLISHED_SLATE_STAIRS = registerBlock("cracked_polished_slate_stairs",
+            new StairsBlock(VRBlocks.CRACKED_POLISHED_SLATE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_POLISHED_SLATE_SLAB = registerBlock("cracked_polished_slate_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_POLISHED_SLATE_WALL = registerBlock("cracked_polished_slate_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+
+    public static final Block SLATE_BRICKS = registerBlock("slate_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_BRICK_STAIRS = registerBlock("slate_brick_stairs",
+            new StairsBlock(VRBlocks.SLATE_BRICKS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_BRICK_SLAB = registerBlock("slate_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_BRICK_WALL = registerBlock("slate_brick_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CHISELED_SLATE_BRICKS = registerBlock("chiseled_slate_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_SLATE_BRICKS = registerBlock("cracked_slate_bricks",
+            new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_SLATE_BRICK_STAIRS = registerBlock("cracked_slate_brick_stairs",
+            new StairsBlock(VRBlocks.CRACKED_SLATE_BRICKS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_SLATE_BRICK_SLAB = registerBlock("cracked_slate_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_SLATE_BRICK_WALL = registerBlock("cracked_slate_brick_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(VoidReactor.MOD_ID, name), block);

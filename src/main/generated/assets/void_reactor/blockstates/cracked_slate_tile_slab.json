@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "void_reactor:block/cracked_slate_tile_slab"
+    },
+    "type=double": {
+      "model": "void_reactor:block/cracked_slate_tile"
+    },
+    "type=top": {
+      "model": "void_reactor:block/cracked_slate_tile_slab_top"
+    }
+  }
+}

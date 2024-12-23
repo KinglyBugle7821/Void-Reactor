@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "void_reactor:block/smooth_slate_slab"
+    },
+    "type=double": {
+      "model": "void_reactor:block/smooth_slate"
+    },
+    "type=top": {
+      "model": "void_reactor:block/smooth_slate_slab_top"
+    }
+  }
+}

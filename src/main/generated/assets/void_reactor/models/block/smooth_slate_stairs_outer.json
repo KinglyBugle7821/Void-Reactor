@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "void_reactor:block/smooth_slate",
+    "side": "void_reactor:block/smooth_slate",
+    "top": "void_reactor:block/smooth_slate"
+  }
+}

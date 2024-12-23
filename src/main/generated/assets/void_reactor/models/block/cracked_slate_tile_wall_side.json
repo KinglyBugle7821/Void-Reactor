@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "void_reactor:block/cracked_slate_tile"
+  }
+}

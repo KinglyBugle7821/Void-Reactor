@@ -2,7 +2,6 @@ package net.projectk.voidreactor.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.projectk.voidreactor.block.VRBlocks;
 import net.projectk.voidreactor.item.VRItems;
@@ -28,31 +27,31 @@ public class VRLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(VRBlocks.CELESTIAL_DIRT);
 
         addDrop(VRBlocks.CELESTIAL_STONE, oreDrops(VRBlocks.CELESTIAL_STONE, VRBlocks.CELESTIAL_COBBLESTONE.asItem()));
-        addDrop(VRBlocks.SMOOTH_CELESTIAL_STONE_SLAB);
+        addDrop(VRBlocks.SMOOTH_CELESTIAL_STONE_SLAB, slabDrops(VRBlocks.SMOOTH_CELESTIAL_STONE_SLAB));
         addDrop(VRBlocks.SMOOTH_CELESTIAL_STONE);
         addDrop(VRBlocks.CELESTIAL_STONE_STAIRS);
         addDrop(VRBlocks.CELESTIAL_STONE_SLAB);
 
         addDrop(VRBlocks.CELESTIAL_COBBLESTONE);
         addDrop(VRBlocks.CELESTIAL_COBBLESTONE_STAIRS);
-        addDrop(VRBlocks.CELESTIAL_COBBLESTONE_SLAB);
+        addDrop(VRBlocks.CELESTIAL_COBBLESTONE_SLAB, slabDrops(VRBlocks.SMOOTH_CELESTIAL_STONE_SLAB));
         addDrop(VRBlocks.CELESTIAL_COBBLESTONE_WALL);
 
         addDrop(VRBlocks.CELESTIAL_STONE_BRICKS);
         addDrop(VRBlocks.CELESTIAL_STONE_BRICK_STAIRS);
-        addDrop(VRBlocks.CELESTIAL_STONE_BRICK_SLAB);
+        addDrop(VRBlocks.CELESTIAL_STONE_BRICK_SLAB, slabDrops(VRBlocks.SMOOTH_CELESTIAL_STONE_SLAB));
         addDrop(VRBlocks.CRACKED_CELESTIAL_STONE_BRICKS);
         addDrop(VRBlocks.CHISELED_CELESTIAL_STONE_BRICKS);
         addDrop(VRBlocks.CELESTIAL_STONE_BRICK_WALL);
 
         addDrop(VRBlocks.MOSSY_CELESTIAL_COBBLESTONE);
         addDrop(VRBlocks.MOSSY_CELESTIAL_COBBLESTONE_STAIRS);
-        addDrop(VRBlocks.MOSSY_CELESTIAL_COBBLESTONE_SLAB);
+        addDrop(VRBlocks.MOSSY_CELESTIAL_COBBLESTONE_SLAB, slabDrops(VRBlocks.SMOOTH_CELESTIAL_STONE_SLAB));
         addDrop(VRBlocks.MOSSY_CELESTIAL_COBBLESTONE_WALL);
 
         addDrop(VRBlocks.MOSSY_CELESTIAL_STONE_BRICKS);
         addDrop(VRBlocks.MOSSY_CELESTIAL_STONE_BRICK_STAIRS);
-        addDrop(VRBlocks.MOSSY_CELESTIAL_STONE_BRICK_SLAB);
+        addDrop(VRBlocks.MOSSY_CELESTIAL_STONE_BRICK_SLAB, slabDrops(VRBlocks.SMOOTH_CELESTIAL_STONE_SLAB));
         addDrop(VRBlocks.MOSSY_CELESTIAL_STONE_BRICK_WALL);
 
         addDrop(VRBlocks.DARKFIRE_ORE, oreDrops(VRBlocks.DARKFIRE_ORE, VRItems.DARKFIRE_ESSENCE));
@@ -103,6 +102,51 @@ public class VRLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(VRBlocks.CYAN_STAINED_REINFORCED_GLASS_PANE, dropsWithSilkTouch(VRBlocks.CYAN_STAINED_REINFORCED_GLASS_PANE));
         addDrop(VRBlocks.GRAY_STAINED_REINFORCED_GLASS_PANE, dropsWithSilkTouch(VRBlocks.GRAY_STAINED_REINFORCED_GLASS_PANE));
         addDrop(VRBlocks.PURPLE_STAINED_REINFORCED_GLASS_PANE, dropsWithSilkTouch(VRBlocks.PURPLE_STAINED_REINFORCED_GLASS_PANE));
+
+        addDrop(VRBlocks.SLATE, oreDrops(VRBlocks.SLATE, VRBlocks.COBBLED_SLATE.asItem()));
+        addDrop(VRBlocks.SLATE_STAIRS);
+        addDrop(VRBlocks.SLATE_SLAB, slabDrops(VRBlocks.SLATE_SLAB));
+        addDrop(VRBlocks.SLATE_WALL);
+
+        addDrop(VRBlocks.SMOOTH_SLATE);
+        addDrop(VRBlocks.SMOOTH_SLATE_STAIRS);
+        addDrop(VRBlocks.SMOOTH_SLATE_SLAB, slabDrops(VRBlocks.SMOOTH_SLATE_SLAB));
+        addDrop(VRBlocks.SMOOTH_SLATE_WALL);
+
+        addDrop(VRBlocks.COBBLED_SLATE);
+        addDrop(VRBlocks.COBBLED_SLATE_STAIRS);
+        addDrop(VRBlocks.COBBLED_SLATE_SLAB, slabDrops(VRBlocks.COBBLED_SLATE_SLAB));
+        addDrop(VRBlocks.COBBLED_SLATE_WALL);
+
+        addDrop(VRBlocks.SLATE_TILE);
+        addDrop(VRBlocks.SLATE_TILE_STAIRS);
+        addDrop(VRBlocks.SLATE_TILE_SLAB, slabDrops(VRBlocks.SLATE_TILE_SLAB));
+        addDrop(VRBlocks.SLATE_TILE_WALL);
+        addDrop(VRBlocks.CHISELED_SLATE_TILE);
+        addDrop(VRBlocks.CRACKED_SLATE_TILE);
+        addDrop(VRBlocks.CRACKED_SLATE_TILE_STAIRS);
+        addDrop(VRBlocks.CRACKED_SLATE_TILE_SLAB, slabDrops(VRBlocks.CRACKED_SLATE_TILE_SLAB));
+        addDrop(VRBlocks.CRACKED_SLATE_TILE_WALL);
+
+        addDrop(VRBlocks.POLISHED_SLATE);
+        addDrop(VRBlocks.POLISHED_SLATE_STAIRS);
+        addDrop(VRBlocks.POLISHED_SLATE_SLAB, slabDrops(VRBlocks.POLISHED_SLATE_SLAB));
+        addDrop(VRBlocks.POLISHED_SLATE_WALL);
+        addDrop(VRBlocks.CHISELED_POLISHED_SLATE);
+        addDrop(VRBlocks.CRACKED_POLISHED_SLATE);
+        addDrop(VRBlocks.CRACKED_POLISHED_SLATE_STAIRS);
+        addDrop(VRBlocks.CRACKED_POLISHED_SLATE_SLAB, slabDrops(VRBlocks.CRACKED_POLISHED_SLATE_SLAB));
+        addDrop(VRBlocks.CRACKED_POLISHED_SLATE_WALL);
+
+        addDrop(VRBlocks.SLATE_BRICKS);
+        addDrop(VRBlocks.SLATE_BRICK_STAIRS);
+        addDrop(VRBlocks.SLATE_BRICK_SLAB, slabDrops(VRBlocks.SLATE_BRICK_SLAB));
+        addDrop(VRBlocks.SLATE_BRICK_WALL);
+        addDrop(VRBlocks.CHISELED_SLATE_BRICKS);
+        addDrop(VRBlocks.CRACKED_SLATE_BRICKS);
+        addDrop(VRBlocks.CRACKED_SLATE_BRICK_STAIRS);
+        addDrop(VRBlocks.CRACKED_SLATE_BRICK_SLAB, slabDrops(VRBlocks.CRACKED_SLATE_BRICK_SLAB));
+        addDrop(VRBlocks.CRACKED_SLATE_BRICK_WALL);
 
 //        addDrop(VRBlocks.NEURON_SYNAPSE, leavesDrops(VRBlocks.NEURON_SYNAPSE, VRBlocks.AXON_SPROUT, 0.0625f));
         leavesDrops(VRBlocks.NEURON_SYNAPSE, VRBlocks.AXON_SPROUT, 0,0625f);

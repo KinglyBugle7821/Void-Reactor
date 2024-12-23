@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "void_reactor:block/cracked_slate_tile",
+    "side": "void_reactor:block/cracked_slate_tile",
+    "top": "void_reactor:block/cracked_slate_tile"
+  }
+}

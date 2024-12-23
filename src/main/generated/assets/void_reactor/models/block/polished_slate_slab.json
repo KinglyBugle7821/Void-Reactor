@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "void_reactor:block/polished_slate",
+    "side": "void_reactor:block/polished_slate",
+    "top": "void_reactor:block/polished_slate"
+  }
+}
