@@ -116,46 +116,64 @@ public class VRItemGroups {
                         entries.add(VRBlocks.SLATE_STAIRS);
                         entries.add(VRBlocks.SLATE_SLAB);
                         entries.add(VRBlocks.SLATE_WALL);
+                        entries.add(VRBlocks.SLATE_BUTTON);
+                        entries.add(VRBlocks.SLATE_PRESSURE_PLATE);
 
                         entries.add(VRBlocks.SMOOTH_SLATE);
                         entries.add(VRBlocks.SMOOTH_SLATE_STAIRS);
                         entries.add(VRBlocks.SMOOTH_SLATE_SLAB);
                         entries.add(VRBlocks.SMOOTH_SLATE_WALL);
+                        entries.add(VRBlocks.SMOOTH_SLATE_BUTTON);
+                        entries.add(VRBlocks.SMOOTH_SLATE_PRESSURE_PLATE);
 
                         entries.add(VRBlocks.COBBLED_SLATE);
                         entries.add(VRBlocks.COBBLED_SLATE_STAIRS);
                         entries.add(VRBlocks.COBBLED_SLATE_SLAB);
                         entries.add(VRBlocks.COBBLED_SLATE_WALL);
+                        entries.add(VRBlocks.COBBLED_SLATE_BUTTON);
+                        entries.add(VRBlocks.COBBLED_SLATE_PRESSURE_PLATE);
 
                         entries.add(VRBlocks.SLATE_TILE);
                         entries.add(VRBlocks.SLATE_TILE_STAIRS);
                         entries.add(VRBlocks.SLATE_TILE_SLAB);
                         entries.add(VRBlocks.SLATE_TILE_WALL);
+                        entries.add(VRBlocks.SLATE_TILE_BUTTON);
+                        entries.add(VRBlocks.SLATE_TILE_PRESSURE_PLATE);
                         entries.add(VRBlocks.CHISELED_SLATE_TILE);
                         entries.add(VRBlocks.CRACKED_SLATE_TILE);
                         entries.add(VRBlocks.CRACKED_SLATE_TILE_STAIRS);
                         entries.add(VRBlocks.CRACKED_SLATE_TILE_SLAB);
                         entries.add(VRBlocks.CRACKED_SLATE_TILE_WALL);
+                        entries.add(VRBlocks.CRACKED_SLATE_TILE_BUTTON);
+                        entries.add(VRBlocks.CRACKED_SLATE_TILE_PRESSURE_PLATE);
 
                         entries.add(VRBlocks.POLISHED_SLATE);
                         entries.add(VRBlocks.POLISHED_SLATE_STAIRS);
                         entries.add(VRBlocks.POLISHED_SLATE_SLAB);
                         entries.add(VRBlocks.POLISHED_SLATE_WALL);
+                        entries.add(VRBlocks.POLISHED_SLATE_BUTTON);
+                        entries.add(VRBlocks.POLISHED_SLATE_PRESSURE_PLATE);
                         entries.add(VRBlocks.CHISELED_POLISHED_SLATE);
                         entries.add(VRBlocks.CRACKED_POLISHED_SLATE);
                         entries.add(VRBlocks.CRACKED_POLISHED_SLATE_STAIRS);
                         entries.add(VRBlocks.CRACKED_POLISHED_SLATE_SLAB);
                         entries.add(VRBlocks.CRACKED_POLISHED_SLATE_WALL);
+                        entries.add(VRBlocks.CRACKED_POLISHED_SLATE_BUTTON);
+                        entries.add(VRBlocks.CRACKED_POLISHED_SLATE_PRESSURE_PLATE);
 
                         entries.add(VRBlocks.SLATE_BRICKS);
                         entries.add(VRBlocks.SLATE_BRICK_STAIRS);
                         entries.add(VRBlocks.SLATE_BRICK_SLAB);
                         entries.add(VRBlocks.SLATE_BRICK_WALL);
+                        entries.add(VRBlocks.SLATE_BRICK_BUTTON);
+                        entries.add(VRBlocks.SLATE_BRICK_PRESSURE_PLATE);
                         entries.add(VRBlocks.CHISELED_SLATE_BRICKS);
                         entries.add(VRBlocks.CRACKED_SLATE_BRICKS);
                         entries.add(VRBlocks.CRACKED_SLATE_BRICK_STAIRS);
                         entries.add(VRBlocks.CRACKED_SLATE_BRICK_SLAB);
                         entries.add(VRBlocks.CRACKED_SLATE_BRICK_WALL);
+                        entries.add(VRBlocks.CRACKED_SLATE_BRICK_BUTTON);
+                        entries.add(VRBlocks.CRACKED_SLATE_BRICK_PRESSURE_PLATE);
 
                         entries.add(VRItems.DARKFIRE_ESSENCE);
                         entries.add(VRItems.GENERO_PLASMA);

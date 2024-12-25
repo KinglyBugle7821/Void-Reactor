@@ -2,6 +2,7 @@ package net.projectk.voidreactor.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import net.projectk.voidreactor.block.VRBlocks;
@@ -21,6 +22,7 @@ public class VRBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(BLOCK);
          */
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(VRBlocks.CELESTIAL_STONE)
                 .add(VRBlocks.SMOOTH_CELESTIAL_STONE_SLAB)
                 .add(VRBlocks.SMOOTH_CELESTIAL_STONE)
                 .add(VRBlocks.CELESTIAL_STONE_STAIRS)
@@ -94,46 +96,65 @@ public class VRBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(VRBlocks.SLATE_STAIRS)
                 .add(VRBlocks.SLATE_SLAB)
                 .add(VRBlocks.SLATE_WALL)
+                .add(VRBlocks.SLATE_BUTTON)
+                .add(VRBlocks.SLATE_PRESSURE_PLATE)
 
                 .add(VRBlocks.SMOOTH_SLATE)
                 .add(VRBlocks.SMOOTH_SLATE_STAIRS)
                 .add(VRBlocks.SMOOTH_SLATE_SLAB)
                 .add(VRBlocks.SMOOTH_SLATE_WALL)
+                .add(VRBlocks.SMOOTH_SLATE_BUTTON)
+                .add(VRBlocks.SMOOTH_SLATE_PRESSURE_PLATE)
 
                 .add(VRBlocks.COBBLED_SLATE)
                 .add(VRBlocks.COBBLED_SLATE_STAIRS)
                 .add(VRBlocks.COBBLED_SLATE_SLAB)
                 .add(VRBlocks.COBBLED_SLATE_WALL)
+                .add(VRBlocks.COBBLED_SLATE_BUTTON)
+                .add(VRBlocks.COBBLED_SLATE_PRESSURE_PLATE)
 
                 .add(VRBlocks.SLATE_TILE)
                 .add(VRBlocks.SLATE_TILE_STAIRS)
                 .add(VRBlocks.SLATE_TILE_SLAB)
                 .add(VRBlocks.SLATE_TILE_WALL)
+                .add(VRBlocks.SLATE_TILE_BUTTON)
+                .add(VRBlocks.SLATE_TILE_PRESSURE_PLATE)
                 .add(VRBlocks.CHISELED_SLATE_TILE)
                 .add(VRBlocks.CRACKED_SLATE_TILE)
                 .add(VRBlocks.CRACKED_SLATE_TILE_STAIRS)
                 .add(VRBlocks.CRACKED_SLATE_TILE_SLAB)
                 .add(VRBlocks.CRACKED_SLATE_TILE_WALL)
+                .add(VRBlocks.CRACKED_SLATE_TILE_BUTTON)
+                .add(VRBlocks.CRACKED_SLATE_TILE_PRESSURE_PLATE)
 
                 .add(VRBlocks.POLISHED_SLATE)
                 .add(VRBlocks.POLISHED_SLATE_STAIRS)
                 .add(VRBlocks.POLISHED_SLATE_SLAB)
                 .add(VRBlocks.POLISHED_SLATE_WALL)
+                .add(VRBlocks.POLISHED_SLATE_BUTTON)
+                .add(VRBlocks.POLISHED_SLATE_PRESSURE_PLATE)
                 .add(VRBlocks.CHISELED_POLISHED_SLATE)
                 .add(VRBlocks.CRACKED_POLISHED_SLATE)
                 .add(VRBlocks.CRACKED_POLISHED_SLATE_STAIRS)
                 .add(VRBlocks.CRACKED_POLISHED_SLATE_SLAB)
                 .add(VRBlocks.CRACKED_POLISHED_SLATE_WALL)
+                .add(VRBlocks.CRACKED_POLISHED_SLATE_BUTTON)
+                .add(VRBlocks.CRACKED_POLISHED_SLATE_PRESSURE_PLATE)
 
                 .add(VRBlocks.SLATE_BRICKS)
                 .add(VRBlocks.SLATE_BRICK_STAIRS)
                 .add(VRBlocks.SLATE_BRICK_SLAB)
                 .add(VRBlocks.SLATE_BRICK_WALL)
+                .add(VRBlocks.SLATE_BRICK_BUTTON)
+                .add(VRBlocks.SLATE_BRICK_PRESSURE_PLATE)
                 .add(VRBlocks.CHISELED_SLATE_BRICKS)
                 .add(VRBlocks.CRACKED_SLATE_BRICKS)
                 .add(VRBlocks.CRACKED_SLATE_BRICK_STAIRS)
                 .add(VRBlocks.CRACKED_SLATE_BRICK_SLAB)
-                .add(VRBlocks.CRACKED_SLATE_BRICK_WALL);
+                .add(VRBlocks.CRACKED_SLATE_BRICK_WALL)
+                .add(VRBlocks.CRACKED_SLATE_BRICK_BUTTON)
+                .add(VRBlocks.CRACKED_SLATE_BRICK_PRESSURE_PLATE);
+
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(VRBlocks.DARKFIRE_ORE)
                 .add(VRBlocks.GENERO_ORE)
@@ -170,6 +191,24 @@ public class VRBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(VRBlocks.CRACKED_POLISHED_SLATE_WALL)
                 .add(VRBlocks.SLATE_BRICK_WALL)
                 .add(VRBlocks.CRACKED_SLATE_BRICK_WALL);
+        getOrCreateTagBuilder(BlockTags.STONE_BUTTONS)
+                .add(VRBlocks.SLATE_BUTTON)
+                .add(VRBlocks.COBBLED_SLATE_BUTTON)
+                .add(VRBlocks.SLATE_TILE_BUTTON)
+                .add(VRBlocks.CRACKED_SLATE_TILE_BUTTON)
+                .add(VRBlocks.POLISHED_SLATE_BUTTON)
+                .add(VRBlocks.CRACKED_POLISHED_SLATE_BUTTON)
+                .add(VRBlocks.SLATE_BRICK_BUTTON)
+                .add(VRBlocks.CRACKED_SLATE_BRICK_BUTTON);
+        getOrCreateTagBuilder(BlockTags.STONE_PRESSURE_PLATES)
+                .add(VRBlocks.SLATE_PRESSURE_PLATE)
+                .add(VRBlocks.COBBLED_SLATE_PRESSURE_PLATE)
+                .add(VRBlocks.SLATE_TILE_PRESSURE_PLATE)
+                .add(VRBlocks.CRACKED_SLATE_TILE_PRESSURE_PLATE)
+                .add(VRBlocks.POLISHED_SLATE_PRESSURE_PLATE)
+                .add(VRBlocks.CRACKED_POLISHED_SLATE_PRESSURE_PLATE)
+                .add(VRBlocks.SLATE_BRICK_PRESSURE_PLATE)
+                .add(VRBlocks.CRACKED_SLATE_BRICK_PRESSURE_PLATE);
         getOrCreateTagBuilder(BlockTags.DIRT)
                 .add(VRBlocks.CELESTIAL_GRASS_BLOCK)
                 .add(VRBlocks.CELESTIAL_DIRT);

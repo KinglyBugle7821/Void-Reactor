@@ -1,0 +1,12 @@
+{
+  "values": [
+    "void_reactor:slate_button",
+    "void_reactor:cobbled_slate_button",
+    "void_reactor:slate_tile_button",
+    "void_reactor:cracked_slate_tile_button",
+    "void_reactor:polished_slate_button",
+    "void_reactor:cracked_polished_slate_button",
+    "void_reactor:slate_brick_button",
+    "void_reactor:cracked_slate_brick_button"
+  ]
+}

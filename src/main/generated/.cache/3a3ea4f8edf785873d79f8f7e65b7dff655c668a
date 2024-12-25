@@ -1,4 +1,4 @@
-// 1.21	2024-12-23T12:51:49.2523458	Void Reactor/Block Loot Tables
+// 1.21	2024-12-24T14:44:11.7046739	Void Reactor/Block Loot Tables
 e20ae0dcec2a6cc19e3ac0c60726bd7a27b942d9 data\void_reactor\loot_table\blocks\pink_stained_reinforced_glass.json
 bfe75e1632f098469dd01692ca66dbd81bea6280 data\void_reactor\loot_table\blocks\celestial_grass_block.json
 9f1480a3b60427f10389774b18c49aa1641cb5fc data\void_reactor\loot_table\blocks\magenta_stained_reinforced_glass_pane.json
@@ -79,8 +79,8 @@ c41746de9c34c64aececbf0b828f2c248a77190c data\void_reactor\loot_table\blocks\lig
 8b01208072aa58b7e3c623a2cc0785988ab6d12f data\void_reactor\loot_table\blocks\neuron_trapdoor.json
 92d454cca0080b406125554b7d516510d0c89254 data\void_reactor\loot_table\blocks\chiseled_slate_tile.json
 623edf6a8c98049fafdf69da08e27d6dd3f6d821 data\void_reactor\loot_table\blocks\cymin_ore.json
-095c73b01e7b148ce13c26d4965abd834ddfa45e data\void_reactor\loot_table\blocks\neuron_fence_gate.json
 36add52be7f86c48fc98eb30a5e9d6fdc3772ba5 data\void_reactor\loot_table\blocks\stripped_neuron_myelin.json
+095c73b01e7b148ce13c26d4965abd834ddfa45e data\void_reactor\loot_table\blocks\neuron_fence_gate.json
 1c53db924ab6924a9d6c821dc4ea4ac6394e1355 data\void_reactor\loot_table\blocks\mossy_celestial_stone_bricks.json
 e3dc1987d42ba9c4328006f54993cc31c590be59 data\void_reactor\loot_table\blocks\cracked_slate_brick_slab.json
 074c06f26bfdbeaff28cde583c28f20b6313bfa8 data\void_reactor\loot_table\blocks\slate_slab.json

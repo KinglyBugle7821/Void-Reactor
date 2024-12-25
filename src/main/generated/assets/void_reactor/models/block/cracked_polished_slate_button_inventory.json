@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "void_reactor:block/cracked_polished_slate"
+  }
+}

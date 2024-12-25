@@ -1,3 +1,5 @@
-// 1.21	2024-12-23T12:51:49.2513463	Void Reactor/Tags for minecraft:item
+// 1.21	2024-12-24T14:44:11.7026743	Void Reactor/Tags for minecraft:item
 21a3e8e0ef4c74700523b09f3918d3a4b17986d6 data\minecraft\tags\item\logs_that_burn.json
+182a7e1156dc048a693369bb2b409f6d4036ff5d data\minecraft\tags\item\stone_tool_materials.json
 ee4f7cd3c5b9bdebcc41ce6abe9d847f79dbc2a2 data\minecraft\tags\item\planks.json
+1a376b9738c0011476f73ac5a65a8f0b9c017172 data\minecraft\tags\item\stone_crafting_materials.json

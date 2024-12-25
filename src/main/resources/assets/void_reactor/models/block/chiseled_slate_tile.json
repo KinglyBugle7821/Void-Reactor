@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "void_reactor:block/chiseled_slate_tile_top",
+    "side": "void_reactor:block/chiseled_slate_tile"
+  }
+}

@@ -99,54 +99,71 @@ public class VRModelProvider extends FabricModelProvider {
         slatePool.stairs(VRBlocks.SLATE_STAIRS);
         slatePool.slab(VRBlocks.SLATE_SLAB);
         slatePool.wall(VRBlocks.SLATE_WALL);
+        slatePool.button(VRBlocks.SLATE_BUTTON);
+        slatePool.pressurePlate(VRBlocks.SLATE_PRESSURE_PLATE);
 
         // Smooth Slate blocks
         BlockStateModelGenerator.BlockTexturePool smoothSlatePool = blockStateModelGenerator.registerCubeAllModelTexturePool(VRBlocks.SMOOTH_SLATE);
         smoothSlatePool.stairs(VRBlocks.SMOOTH_SLATE_STAIRS);
         smoothSlatePool.slab(VRBlocks.SMOOTH_SLATE_SLAB);
         smoothSlatePool.wall(VRBlocks.SMOOTH_SLATE_WALL);
+        smoothSlatePool.button(VRBlocks.SMOOTH_SLATE_BUTTON);
+        smoothSlatePool.pressurePlate(VRBlocks.SMOOTH_SLATE_PRESSURE_PLATE);
 
         // Cobbled Slate blocks
         BlockStateModelGenerator.BlockTexturePool cobbledSlatePool = blockStateModelGenerator.registerCubeAllModelTexturePool(VRBlocks.COBBLED_SLATE);
         cobbledSlatePool.stairs(VRBlocks.COBBLED_SLATE_STAIRS);
         cobbledSlatePool.slab(VRBlocks.COBBLED_SLATE_SLAB);
         cobbledSlatePool.wall(VRBlocks.COBBLED_SLATE_WALL);
+        cobbledSlatePool.button(VRBlocks.COBBLED_SLATE_BUTTON);
+        cobbledSlatePool.pressurePlate(VRBlocks.COBBLED_SLATE_PRESSURE_PLATE);
 
         // Slate Tile blocks
         BlockStateModelGenerator.BlockTexturePool slateTilePool = blockStateModelGenerator.registerCubeAllModelTexturePool(VRBlocks.SLATE_TILE);
         slateTilePool.stairs(VRBlocks.SLATE_TILE_STAIRS);
         slateTilePool.slab(VRBlocks.SLATE_TILE_SLAB);
         slateTilePool.wall(VRBlocks.SLATE_TILE_WALL);
-        blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.CHISELED_SLATE_TILE);
+        slateTilePool.button(VRBlocks.SLATE_TILE_BUTTON);
+        slateTilePool.pressurePlate(VRBlocks.SLATE_TILE_PRESSURE_PLATE);
 
         BlockStateModelGenerator.BlockTexturePool crackedSlateTilePool = blockStateModelGenerator.registerCubeAllModelTexturePool(VRBlocks.CRACKED_SLATE_TILE);
         crackedSlateTilePool.stairs(VRBlocks.CRACKED_SLATE_TILE_STAIRS);
         crackedSlateTilePool.slab(VRBlocks.CRACKED_SLATE_TILE_SLAB);
         crackedSlateTilePool.wall(VRBlocks.CRACKED_SLATE_TILE_WALL);
+        crackedSlateTilePool.button(VRBlocks.CRACKED_SLATE_TILE_BUTTON);
+        crackedSlateTilePool.pressurePlate(VRBlocks.CRACKED_SLATE_TILE_PRESSURE_PLATE);
 
         // Polished Slate blocks
         BlockStateModelGenerator.BlockTexturePool polishedSlatePool = blockStateModelGenerator.registerCubeAllModelTexturePool(VRBlocks.POLISHED_SLATE);
         polishedSlatePool.stairs(VRBlocks.POLISHED_SLATE_STAIRS);
         polishedSlatePool.slab(VRBlocks.POLISHED_SLATE_SLAB);
         polishedSlatePool.wall(VRBlocks.POLISHED_SLATE_WALL);
+        polishedSlatePool.button(VRBlocks.POLISHED_SLATE_BUTTON);
+        polishedSlatePool.pressurePlate(VRBlocks.POLISHED_SLATE_PRESSURE_PLATE);
         blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.CHISELED_POLISHED_SLATE);
 
         BlockStateModelGenerator.BlockTexturePool crackedPolishedSlatePool = blockStateModelGenerator.registerCubeAllModelTexturePool(VRBlocks.CRACKED_POLISHED_SLATE);
         crackedPolishedSlatePool.stairs(VRBlocks.CRACKED_POLISHED_SLATE_STAIRS);
         crackedPolishedSlatePool.slab(VRBlocks.CRACKED_POLISHED_SLATE_SLAB);
         crackedPolishedSlatePool.wall(VRBlocks.CRACKED_POLISHED_SLATE_WALL);
+        crackedPolishedSlatePool.button(VRBlocks.CRACKED_POLISHED_SLATE_BUTTON);
+        crackedPolishedSlatePool.pressurePlate(VRBlocks.CRACKED_POLISHED_SLATE_PRESSURE_PLATE);
 
         // Slate Brick blocks
         BlockStateModelGenerator.BlockTexturePool slateBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(VRBlocks.SLATE_BRICKS);
         slateBricksPool.stairs(VRBlocks.SLATE_BRICK_STAIRS);
         slateBricksPool.slab(VRBlocks.SLATE_BRICK_SLAB);
         slateBricksPool.wall(VRBlocks.SLATE_BRICK_WALL);
+        slateBricksPool.button(VRBlocks.SLATE_BRICK_BUTTON);
+        slateBricksPool.pressurePlate(VRBlocks.SLATE_BRICK_PRESSURE_PLATE);
         blockStateModelGenerator.registerSimpleCubeAll(VRBlocks.CHISELED_SLATE_BRICKS);
 
         BlockStateModelGenerator.BlockTexturePool crackedSlateBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(VRBlocks.CRACKED_SLATE_BRICKS);
         crackedSlateBricksPool.stairs(VRBlocks.CRACKED_SLATE_BRICK_STAIRS);
         crackedSlateBricksPool.slab(VRBlocks.CRACKED_SLATE_BRICK_SLAB);
         crackedSlateBricksPool.wall(VRBlocks.CRACKED_SLATE_BRICK_WALL);
+        crackedSlateBricksPool.button(VRBlocks.CRACKED_SLATE_BRICK_BUTTON);
+        crackedSlateBricksPool.pressurePlate(VRBlocks.CRACKED_SLATE_BRICK_PRESSURE_PLATE);
     }
 
     @Override

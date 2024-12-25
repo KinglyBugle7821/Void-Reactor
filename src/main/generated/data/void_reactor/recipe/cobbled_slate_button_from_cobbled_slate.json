@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "void_reactor:cobbled_slate"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "void_reactor:cobbled_slate_button"
+  }
+}

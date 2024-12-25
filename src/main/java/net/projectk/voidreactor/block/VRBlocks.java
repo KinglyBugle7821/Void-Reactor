@@ -35,7 +35,7 @@ public class VRBlocks {
     public static final Block NEURON_SLAB = registerBlock("neuron_slab",
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.CRIMSON_SLAB).mapColor(DyeColor.BROWN)));
     public static final Block NEURON_BUTTON = registerBlock("neuron_button",
-            new ButtonBlock(BlockSetType.OAK, 15, AbstractBlock.Settings.copy(Blocks.CRIMSON_BUTTON).mapColor(DyeColor.BROWN)));
+            new ButtonBlock(BlockSetType.OAK, 30, AbstractBlock.Settings.copy(Blocks.CRIMSON_BUTTON).mapColor(DyeColor.BROWN)));
     public static final Block NEURON_PRESSURE_PLATE = registerBlock("neuron_pressure_plate",
             new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(Blocks.CRIMSON_PRESSURE_PLATE).mapColor(DyeColor.BROWN)));
     public static final Block NEURON_FENCE = registerBlock("neuron_fence",
@@ -204,6 +204,10 @@ public class VRBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block SLATE_WALL = registerBlock("slate_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_BUTTON = registerBlock("slate_button",
+            new ButtonBlock(BlockSetType.STONE, 20,AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_PRESSURE_PLATE = registerBlock("slate_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE ,AbstractBlock.Settings.copy(Blocks.BASALT)));
 
     public static final Block SMOOTH_SLATE = registerBlock("smooth_slate",
             new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
@@ -213,6 +217,10 @@ public class VRBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block SMOOTH_SLATE_WALL = registerBlock("smooth_slate_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SMOOTH_SLATE_BUTTON = registerBlock("smooth_slate_button",
+            new ButtonBlock(BlockSetType.STONE, 20,AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SMOOTH_SLATE_PRESSURE_PLATE = registerBlock("smooth_slate_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE ,AbstractBlock.Settings.copy(Blocks.BASALT)));
 
     public static final Block COBBLED_SLATE = registerBlock("cobbled_slate",
             new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
@@ -222,6 +230,10 @@ public class VRBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block COBBLED_SLATE_WALL = registerBlock("cobbled_slate_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block COBBLED_SLATE_BUTTON = registerBlock("cobbled_slate_button",
+            new ButtonBlock(BlockSetType.STONE, 20,AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block COBBLED_SLATE_PRESSURE_PLATE = registerBlock("cobbled_slate_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE ,AbstractBlock.Settings.copy(Blocks.BASALT)));
 
     public static final Block SLATE_TILE = registerBlock("slate_tile",
             new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
@@ -231,6 +243,10 @@ public class VRBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block SLATE_TILE_WALL = registerBlock("slate_tile_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_TILE_BUTTON = registerBlock("slate_tile_button",
+            new ButtonBlock(BlockSetType.STONE, 20,AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_TILE_PRESSURE_PLATE = registerBlock("slate_tile_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE ,AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block CHISELED_SLATE_TILE = registerBlock("chiseled_slate_tile",
             new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block CRACKED_SLATE_TILE = registerBlock("cracked_slate_tile",
@@ -241,6 +257,10 @@ public class VRBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block CRACKED_SLATE_TILE_WALL = registerBlock("cracked_slate_tile_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_SLATE_TILE_BUTTON = registerBlock("cracked_slate_tile_button",
+            new ButtonBlock(BlockSetType.STONE, 20,AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_SLATE_TILE_PRESSURE_PLATE = registerBlock("cracked_slate_tile_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE ,AbstractBlock.Settings.copy(Blocks.BASALT)));
 
     public static final Block POLISHED_SLATE = registerBlock("polished_slate",
             new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
@@ -250,6 +270,10 @@ public class VRBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block POLISHED_SLATE_WALL = registerBlock("polished_slate_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block POLISHED_SLATE_BUTTON = registerBlock("polished_slate_button",
+            new ButtonBlock(BlockSetType.STONE, 20,AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block POLISHED_SLATE_PRESSURE_PLATE = registerBlock("polished_slate_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE ,AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block CHISELED_POLISHED_SLATE = registerBlock("chiseled_polished_slate",
             new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block CRACKED_POLISHED_SLATE = registerBlock("cracked_polished_slate",
@@ -260,6 +284,10 @@ public class VRBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block CRACKED_POLISHED_SLATE_WALL = registerBlock("cracked_polished_slate_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_POLISHED_SLATE_BUTTON = registerBlock("cracked_polished_slate_button",
+            new ButtonBlock(BlockSetType.STONE, 20,AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_POLISHED_SLATE_PRESSURE_PLATE = registerBlock("cracked_polished_slate_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE ,AbstractBlock.Settings.copy(Blocks.BASALT)));
 
     public static final Block SLATE_BRICKS = registerBlock("slate_bricks",
             new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
@@ -269,6 +297,10 @@ public class VRBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block SLATE_BRICK_WALL = registerBlock("slate_brick_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_BRICK_BUTTON = registerBlock("slate_brick_button",
+            new ButtonBlock(BlockSetType.STONE, 20,AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block SLATE_BRICK_PRESSURE_PLATE = registerBlock("slate_brick_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE ,AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block CHISELED_SLATE_BRICKS = registerBlock("chiseled_slate_bricks",
             new Block(AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block CRACKED_SLATE_BRICKS = registerBlock("cracked_slate_bricks",
@@ -279,6 +311,10 @@ public class VRBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
     public static final Block CRACKED_SLATE_BRICK_WALL = registerBlock("cracked_slate_brick_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_SLATE_BRICK_BUTTON = registerBlock("cracked_slate_brick_button",
+            new ButtonBlock(BlockSetType.STONE, 20,AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block CRACKED_SLATE_BRICK_PRESSURE_PLATE = registerBlock("cracked_slate_brick_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE ,AbstractBlock.Settings.copy(Blocks.BASALT)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

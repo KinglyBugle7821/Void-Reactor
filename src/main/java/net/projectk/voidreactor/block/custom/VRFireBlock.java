@@ -5,6 +5,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.FireBlock;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.predicate.entity.DamageSourcePredicate;
@@ -66,13 +67,39 @@ public class VRFireBlock extends FireBlock {
                     var darkfireDamageType = registryManager.get(RegistryKeys.DAMAGE_TYPE)
                             .getEntry(DARKFIRE_DAMAGE_TYPE).orElseThrow();
                     DamageSource darkfireDamageSource = new DamageSource(darkfireDamageType);
-                    float customDamage = 5.0F;
+                    float customDamage = 2.0F;
 
                     entity.damage(darkfireDamageSource, customDamage);
                     double knockbackStrength = 1;
                     entity.setVelocity(entity.getVelocity().add(knockbackDirection.multiply(knockbackStrength)));
                     entity.velocityModified = true;
                 }
+            }
+            else if (entity instanceof ItemEntity item){
+                Vec3d knockbackDirection = entity.getPos().subtract(Vec3d.ofCenter(pos)).normalize();
+                var registryManager = serverWorld.getRegistryManager();
+                var darkfireDamageType = registryManager.get(RegistryKeys.DAMAGE_TYPE)
+                        .getEntry(DARKFIRE_DAMAGE_TYPE).orElseThrow();
+                DamageSource darkfireDamageSource = new DamageSource(darkfireDamageType);
+                float customDamage = 0.0F;
+
+                entity.damage(darkfireDamageSource, customDamage);
+                double knockbackStrength = 1;
+                entity.setVelocity(entity.getVelocity().add(knockbackDirection.multiply(knockbackStrength)));
+                entity.velocityModified = true;
+            }
+            else {
+                Vec3d knockbackDirection = entity.getPos().subtract(Vec3d.ofCenter(pos)).normalize();
+                var registryManager = serverWorld.getRegistryManager();
+                var darkfireDamageType = registryManager.get(RegistryKeys.DAMAGE_TYPE)
+                        .getEntry(DARKFIRE_DAMAGE_TYPE).orElseThrow();
+                DamageSource darkfireDamageSource = new DamageSource(darkfireDamageType);
+                float customDamage = 5.0F;
+
+                entity.damage(darkfireDamageSource, customDamage);
+                double knockbackStrength = 1;
+                entity.setVelocity(entity.getVelocity().add(knockbackDirection.multiply(knockbackStrength)));
+                entity.velocityModified = true;
             }
         }
         super.onEntityCollision(state, world, pos, entity);

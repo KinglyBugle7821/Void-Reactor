@@ -1,0 +1,12 @@
+{
+  "values": [
+    "void_reactor:slate_pressure_plate",
+    "void_reactor:cobbled_slate_pressure_plate",
+    "void_reactor:slate_tile_pressure_plate",
+    "void_reactor:cracked_slate_tile_pressure_plate",
+    "void_reactor:polished_slate_pressure_plate",
+    "void_reactor:cracked_polished_slate_pressure_plate",
+    "void_reactor:slate_brick_pressure_plate",
+    "void_reactor:cracked_slate_brick_pressure_plate"
+  ]
+}

@@ -25,6 +25,11 @@ public class VRItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(VRBlocks.STRIPPED_NEURON_MYELIN.asItem());
         getOrCreateTagBuilder(ItemTags.PLANKS)
                 .add(VRBlocks.NEURON_PLANKS.asItem());
-
+        getOrCreateTagBuilder(ItemTags.STONE_CRAFTING_MATERIALS)
+                .add(VRBlocks.SLATE.asItem())
+                .add(VRBlocks.CELESTIAL_STONE.asItem());
+        getOrCreateTagBuilder(ItemTags.STONE_TOOL_MATERIALS)
+                .add(VRBlocks.COBBLED_SLATE.asItem())
+                .add(VRBlocks.CELESTIAL_COBBLESTONE.asItem());
     }
 }

@@ -152,6 +152,13 @@ public class VRRecipeProvider extends FabricRecipeProvider {
                 .input('#', VRBlocks.SLATE)
                 .criterion(hasItem(VRBlocks.SLATE), conditionsFromItem(VRBlocks.SLATE))
                 .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "slate_wall_from_slate"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.SLATE_BUTTON, 1)
+                .input(VRBlocks.SLATE)
+                .criterion(hasItem(VRBlocks.SLATE), conditionsFromItem(VRBlocks.SLATE))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "slate_button_from_slate"));
+        createPressurePlateRecipe(RecipeCategory.BUILDING_BLOCKS, VRBlocks.SLATE_PRESSURE_PLATE, Ingredient.ofItems(VRBlocks.SLATE))
+                .criterion(hasItem(VRBlocks.SLATE), conditionsFromItem(VRBlocks.SLATE))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "slate_pressure_plate_from_slate"));
 
         offerSmelting(exporter, SLATE, RecipeCategory.BUILDING_BLOCKS, VRBlocks.SMOOTH_SLATE,
                 0.05f, 200, "slate");
@@ -167,6 +174,13 @@ public class VRRecipeProvider extends FabricRecipeProvider {
                 .input('#', VRBlocks.SMOOTH_SLATE)
                 .criterion(hasItem(VRBlocks.SMOOTH_SLATE), conditionsFromItem(VRBlocks.SMOOTH_SLATE))
                 .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "smooth_slate_wall_from_smooth_slate"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.SMOOTH_SLATE_BUTTON, 1)
+                .input(VRBlocks.SMOOTH_SLATE)
+                .criterion(hasItem(VRBlocks.SMOOTH_SLATE), conditionsFromItem(VRBlocks.SMOOTH_SLATE))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "smooth_slate_button_from_smooth_slate"));
+        createPressurePlateRecipe(RecipeCategory.BUILDING_BLOCKS, VRBlocks.SMOOTH_SLATE_PRESSURE_PLATE, Ingredient.ofItems(VRBlocks.SMOOTH_SLATE))
+                .criterion(hasItem(VRBlocks.SMOOTH_SLATE), conditionsFromItem(VRBlocks.SMOOTH_SLATE))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "smooth_slate_pressure_plate_from_smooth_slate"));
 
         createStairsRecipe(VRBlocks.COBBLED_SLATE_STAIRS, Ingredient.ofItems(VRBlocks.COBBLED_SLATE))
                 .criterion(hasItem(VRBlocks.COBBLED_SLATE), conditionsFromItem(VRBlocks.COBBLED_SLATE))
@@ -180,6 +194,13 @@ public class VRRecipeProvider extends FabricRecipeProvider {
                 .input('#', VRBlocks.COBBLED_SLATE)
                 .criterion(hasItem(VRBlocks.COBBLED_SLATE), conditionsFromItem(VRBlocks.COBBLED_SLATE))
                 .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "cobbled_slate_wall_from_cobbled_slate"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.COBBLED_SLATE_BUTTON, 1)
+                .input(VRBlocks.COBBLED_SLATE)
+                .criterion(hasItem(VRBlocks.COBBLED_SLATE_BUTTON), conditionsFromItem(VRBlocks.COBBLED_SLATE_BUTTON))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "cobbled_slate_button_from_cobbled_slate"));
+        createPressurePlateRecipe(RecipeCategory.BUILDING_BLOCKS, VRBlocks.COBBLED_SLATE_PRESSURE_PLATE, Ingredient.ofItems(VRBlocks.COBBLED_SLATE))
+                .criterion(hasItem(VRBlocks.COBBLED_SLATE), conditionsFromItem(VRBlocks.COBBLED_SLATE))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "cobbled_slate_pressure_plate_from_cobbled_slate"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.SLATE_TILE, 4)
                 .pattern("##")
@@ -199,6 +220,13 @@ public class VRRecipeProvider extends FabricRecipeProvider {
                 .input('#', VRBlocks.SLATE_TILE)
                 .criterion(hasItem(VRBlocks.SLATE_TILE), conditionsFromItem(VRBlocks.SLATE_TILE))
                 .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "slate_tile_wall_from_slate_tile"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.SLATE_TILE_BUTTON, 1)
+                .input(VRBlocks.SLATE_TILE)
+                .criterion(hasItem(VRBlocks.SLATE_TILE), conditionsFromItem(VRBlocks.SLATE_TILE))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "slate_tile_button_from_slate_tile"));
+        createPressurePlateRecipe(RecipeCategory.BUILDING_BLOCKS, VRBlocks.SLATE_TILE_PRESSURE_PLATE, Ingredient.ofItems(VRBlocks.SLATE_TILE))
+                .criterion(hasItem(VRBlocks.SLATE_TILE), conditionsFromItem(VRBlocks.SLATE_TILE))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "slate_tile_pressure_plate_from_slate_tile"));
         createChiseledBlockRecipe(RecipeCategory.BUILDING_BLOCKS, VRBlocks.CHISELED_SLATE_TILE, Ingredient.ofItems(VRBlocks.SLATE_TILE_SLAB))
                 .criterion(hasItem(VRBlocks.SLATE_TILE_SLAB), conditionsFromItem(VRBlocks.SLATE_TILE_SLAB))
                 .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "chiseled_slate_tile_from_slate_tile_slab"));
@@ -216,6 +244,13 @@ public class VRRecipeProvider extends FabricRecipeProvider {
                 .input('#', VRBlocks.CRACKED_SLATE_TILE)
                 .criterion(hasItem(VRBlocks.CRACKED_SLATE_TILE), conditionsFromItem(VRBlocks.CRACKED_SLATE_TILE))
                 .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "cracked_slate_tile_wall_from_cracked_slate_tile"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.CRACKED_SLATE_TILE_BUTTON, 1)
+                .input(VRBlocks.CRACKED_SLATE_TILE)
+                .criterion(hasItem(VRBlocks.CRACKED_SLATE_TILE), conditionsFromItem(VRBlocks.CRACKED_SLATE_TILE))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "cracked_slate_tile_button_from_cracked_slate_tile"));
+        createPressurePlateRecipe(RecipeCategory.BUILDING_BLOCKS, VRBlocks.CRACKED_SLATE_TILE_PRESSURE_PLATE, Ingredient.ofItems(VRBlocks.CRACKED_SLATE_TILE))
+                .criterion(hasItem(VRBlocks.CRACKED_SLATE_TILE), conditionsFromItem(VRBlocks.CRACKED_SLATE_TILE))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "cracked_slate_tile_pressure_plate_from_cracked_slate_tile"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.POLISHED_SLATE, 4)
                 .pattern("##")
@@ -235,6 +270,13 @@ public class VRRecipeProvider extends FabricRecipeProvider {
                 .input('#', VRBlocks.POLISHED_SLATE)
                 .criterion(hasItem(VRBlocks.POLISHED_SLATE), conditionsFromItem(VRBlocks.POLISHED_SLATE))
                 .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "polished_slate_wall_from_polished_slate"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.POLISHED_SLATE_BUTTON, 1)
+                .input(VRBlocks.POLISHED_SLATE)
+                .criterion(hasItem(VRBlocks.POLISHED_SLATE), conditionsFromItem(VRBlocks.POLISHED_SLATE))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "polished_slate_button_from_polished_slate"));
+        createPressurePlateRecipe(RecipeCategory.BUILDING_BLOCKS, VRBlocks.POLISHED_SLATE_PRESSURE_PLATE, Ingredient.ofItems(VRBlocks.POLISHED_SLATE))
+                .criterion(hasItem(VRBlocks.POLISHED_SLATE), conditionsFromItem(VRBlocks.POLISHED_SLATE))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "polished_slate_pressure_plate_from_polished_slate"));
         createChiseledBlockRecipe(RecipeCategory.BUILDING_BLOCKS, VRBlocks.CHISELED_POLISHED_SLATE, Ingredient.ofItems(VRBlocks.POLISHED_SLATE_SLAB))
                 .criterion(hasItem(VRBlocks.POLISHED_SLATE_SLAB), conditionsFromItem(VRBlocks.POLISHED_SLATE_SLAB))
                 .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "chiseled_polished_slate_from_polished_slate_slab"));
@@ -252,6 +294,13 @@ public class VRRecipeProvider extends FabricRecipeProvider {
                 .input('#', VRBlocks.CRACKED_POLISHED_SLATE)
                 .criterion(hasItem(VRBlocks.CRACKED_POLISHED_SLATE), conditionsFromItem(VRBlocks.CRACKED_POLISHED_SLATE))
                 .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "cracked_polished_slate_wall_from_cracked_polished_slate"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.CRACKED_POLISHED_SLATE_BUTTON, 1)
+                .input(VRBlocks.CRACKED_POLISHED_SLATE)
+                .criterion(hasItem(VRBlocks.CRACKED_POLISHED_SLATE), conditionsFromItem(VRBlocks.CRACKED_POLISHED_SLATE))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "cracked_polished_slate_button_from_cracked_polished_slate"));
+        createPressurePlateRecipe(RecipeCategory.BUILDING_BLOCKS, VRBlocks.CRACKED_POLISHED_SLATE_PRESSURE_PLATE, Ingredient.ofItems(VRBlocks.CRACKED_POLISHED_SLATE))
+                .criterion(hasItem(VRBlocks.CRACKED_POLISHED_SLATE), conditionsFromItem(VRBlocks.CRACKED_POLISHED_SLATE))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "cracked_polished_slate_pressure_plate_from_cracked_polished_slate"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.SLATE_BRICKS, 4)
                 .pattern("##")
@@ -271,6 +320,13 @@ public class VRRecipeProvider extends FabricRecipeProvider {
                 .input('#', VRBlocks.SLATE_BRICKS)
                 .criterion(hasItem(VRBlocks.SLATE_BRICKS), conditionsFromItem(VRBlocks.SLATE_BRICKS))
                 .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "slate_brick_wall_from_slate_bricks"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.SLATE_BRICK_BUTTON, 1)
+                .input(VRBlocks.SLATE_BRICKS)
+                .criterion(hasItem(VRBlocks.SLATE_BRICKS), conditionsFromItem(VRBlocks.SLATE_BRICKS))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "slate_brick_button_from_slate_bricks"));
+        createPressurePlateRecipe(RecipeCategory.BUILDING_BLOCKS, VRBlocks.SLATE_BRICK_PRESSURE_PLATE, Ingredient.ofItems(VRBlocks.SLATE_BRICKS))
+                .criterion(hasItem(VRBlocks.SLATE_BRICKS), conditionsFromItem(VRBlocks.SLATE_BRICKS))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "slate_brick_pressure_plate_from_slate_bricks"));
         offerSmelting(exporter, SLATE_BRICKS, RecipeCategory.BUILDING_BLOCKS, VRBlocks.CRACKED_SLATE_BRICKS,
                 0.05f, 200, "slate");
         createStairsRecipe(VRBlocks.CRACKED_SLATE_BRICK_STAIRS, Ingredient.ofItems(VRBlocks.CRACKED_SLATE_BRICKS))
@@ -285,7 +341,13 @@ public class VRRecipeProvider extends FabricRecipeProvider {
                 .input('#', VRBlocks.CRACKED_SLATE_BRICKS)
                 .criterion(hasItem(VRBlocks.CRACKED_SLATE_BRICKS), conditionsFromItem(VRBlocks.CRACKED_SLATE_BRICKS))
                 .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "cracked_slate_brick_wall_from_cracked_slate_bricks"));
-
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, VRBlocks.CRACKED_SLATE_BRICK_BUTTON, 1)
+                .input(VRBlocks.CRACKED_SLATE_BRICKS)
+                .criterion(hasItem(VRBlocks.CRACKED_SLATE_BRICKS), conditionsFromItem(VRBlocks.CRACKED_SLATE_BRICKS))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "cracked_slate_brick_button_from_cracked_slate_bricks"));
+        createPressurePlateRecipe(RecipeCategory.BUILDING_BLOCKS, VRBlocks.CRACKED_SLATE_BRICK_PRESSURE_PLATE, Ingredient.ofItems(VRBlocks.CRACKED_SLATE_BRICKS))
+                .criterion(hasItem(VRBlocks.CRACKED_SLATE_BRICKS), conditionsFromItem(VRBlocks.CRACKED_SLATE_BRICKS))
+                .offerTo(exporter, Identifier.of(VoidReactor.MOD_ID, "cracked_slate_brick_pressure_plate_from_cracked_slate_bricks"));
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, VRItems.CYMIN_NUGGET, 9)
                 .input(VRItems.CYMIN_INGOT)
